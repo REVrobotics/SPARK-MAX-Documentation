@@ -1,0 +1,141 @@
+# Configuration Parameters
+
+Below is a list of all the configurable parameters within the SPARK MAX. Parameters can be set through the CAN or USB interfaces. The parameters are saved in a different region of memory from the device firmware and persist through a firmware update.
+
+| Name | ID | Type | Unit | Default | Description |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| kCanID | 0 | uint | - | 0 | CAN ID  This parameter persists through a normal firmware update. |
+| kInputMode | 1 | Input Mode | - | 0 | Input mode, this parameter is read only and the input mode is detected by the firmware automatically. 0 - PWM 1 - CAN 2 - USB |
+| kMotorType | 2 | Motor Type | - | BRUSHLESS | Motor type:  0 - Brushed 1 - Brushless  This parameter persists through a normal firmware update. |
+| Reserved | 3 | - | - |  | Reserved |
+| kSensorType | 4 | Sensor Type | - | HALL\_EFFECT | Sensor type: 0 - No Sensor 1 - Hall Sensor 2 - Encoder This parameter persists through a normal firmware update. |
+| kCtrlType | 5 | Ctrl Type | - | CTRL\_DUTY\_CYCLE | Control Type, this is a read only parameter of the currently active control type. The control type is changed by calling the correct API. 0 - Duty Cycle 1 - Velocity 2 - Voltage 3 - Position |
+| kIdleMode | 6 | Idle Mode | - | IDLE\_COAST | State of the half bridge when the motor controller commands zero output or is disabled. 0 - Coast 1 - Brake This parameter persists through a normal firmware update. |
+| kInputDeadband | 7 | float32 | % | 0.05 | Percent of the input which results in zero output for PWM mode. This parameter persists through a normal firmware update. |
+| Reserved | 8 | - | - | - | Reserved |
+| Reserved | 9 | - | - | - | Reserved |
+| kPolePairs | 10 | uint | - | 7 | Number of pole pairs for the brushless motor. This is the number of poles/2 and can be determined by either counting the number of magnets or counting the number of windings and dividing by 3. This is an important term for speed regulation to properly calculate the speed. |
+| kCurrentChop | 11 | float32 | Amps | 115 | If the half bridge detects this current limit, it will disable the motor driver for a fixed amount of time set by kCurrentChopCycles. This is a low sophistication 'current control'. Set to 0 to disable. The max value is 125. |
+| kCurrentChopCycles | 12 | uint | - | 0 | Number of PWM Cycles for the h-bridge to be off in the case that the current limit is set. Min = 1, multiples of PWM period \(50μs\). During this time the current will be recirculating through the low side MOSFETs, so instead of 'freewheeling' the diodes, the bridge will be in brake mode during this time. |
+| kP\_0 | 13 | float32 | - | 0 | Proportional gain constant for gain slot 0. |
+| kI\_0 | 14 | float32 | - | 0 | Integral gain constant for gain slot 0. |
+| kD\_0 | 15 | float32 | - | 0 | Derivative gain constant for gain slot 0. |
+| kF\_0 | 16 | float32 | - | 0 | Feed Forward gain constant for gain slot 0. |
+| kIZone\_0 | 17 | float32 | - | 0 | Integrator zone constant for gain slot 0. The PIDF loop integrator will only accumulate while the setpoint is within IZone of the target. |
+| kDFilter\_0 | 18 | float32 | - | 0 | PIDF derivative filter constant for gain slot 0. |
+| kOutputMin\_0 | 19 | float32 | - | -1 | Max output constant for gain slot 0. This is the max output of the controller. |
+| kOutputMax\_0 | 20 | float32 | - | 1 | Min output constant for gain slot 0. This is the min output of the controller. |
+| kP\_1 | 21 | float32 | - | 0 | Proportional gain constant for gain slot 1. |
+| kI\_1 | 22 | float32 | - | 0 | Integral gain constant for gain slot 1. |
+| kD\_1 | 23 | float32 | - | 0 | Derivative gain constant for gain slot 1. |
+| kF\_1 | 24 | float32 | - | 0 | Feed Forward gain constant for gain slot 1. |
+| kIZone\_1 | 25 | float32 | - | 0 | Integrator zone constant for gain slot 1. The PIDF loop integrator will only accumulate while the setpoint is within IZone of the target. |
+| kDFilter\_1 | 26 | float32 | - | 0 | PIDF derivative filter constant for gain slot 1. |
+| kOutputMin\_1 | 27 | float32 | - | -1 | Max output constant for gain slot 1. This is the max output of the controller. |
+| kOutputMax\_1 | 28 | float32 | - | 1 | Min output constant for gain slot 1. This is the min output of the controller. |
+| kP\_2 | 29 | float32 | - | 0 | Proportional gain constant for gain slot 2. |
+| kI\_2 | 30 | float32 | - | 0 | Integral gain constant for gain slot 2. |
+| kD\_2 | 31 | float32 | - | 0 | Derivative gain constant for gain slot 2. |
+| kF\_2 | 32 | float32 | - | 0 | Feed Forward gain constant for gain slot 2. |
+| kIZone\_2 | 33 | float32 | - | 0 | Integrator zone constant for gain slot 2. The PIDF loop integrator will only accumulate while the setpoint is within IZone of the target. |
+| kDFilter\_2 | 34 | float32 | - | 0 | PIDF derivative filter constant for gain slot 2. |
+| kOutputMin\_2 | 35 | float32 | - | -1 | Max output constant for gain slot 2. This is the max output of the controller. |
+| kOutputMax\_2 | 36 | float32 | - | 1 | Min output constant for gain slot 2. This is the min output of the controller. |
+| kP\_3 | 37 | float32 | - | 0 | Proportional gain constant for gain slot 3. |
+| kI\_3 | 38 | float32 | - | 0 | Integral gain constant for gain slot 3. |
+| kD\_3 | 39 | float32 | - | 0 | Derivative gain constant for gain slot 3. |
+| kF\_3 | 40 | float32 | - | 0 | Feed Forward gain constant for gain slot 3. |
+| kIZone\_3 | 41 | float32 | - | 0 | Integrator zone constant for gain slot 3. The PIDF loop integrator will only accumulate while the setpoint is within IZone of the target. |
+| kDFilter\_3 | 42 | float32 | - | 0 | PIDF derivative filter constant for gain slot 3. |
+| kOutputMin\_3 | 43 | float32 | - | -1 | Max output constant for gain slot 3. This is the max output of the controller. |
+| kOutputMax\_3 | 44 | float32 | - | 1 | Min output constant for gain slot 3. This is the min output of the controller. |
+| Reserved | 45 | - | - | - | Reserved |
+| Reserved | 46 | - | - | - | Reserved |
+| Reserved | 47 | - | - | - | Reserved |
+| Reserved | 48 | - | - | - | Reserved |
+| Reserved | 49 | - | - | - | Reserved |
+| kLimitSwitchFwdPolarity | 50 | bool | - | 0 | Forward Limit Switch polarity. 0 - Normally Open 1 - Normally Closed |
+| kLimitSwitchRevPolarity | 51 | bool | - | 0 | Reverse Limit Switch polarity. 0 - Normally Open 1 - Normally Closed |
+| kHardLimitFwdEn | 52 | bool | - | 1 | Limit switch enable, enabled by default |
+| kHardLimitRevEn | 53 | bool | - | 1 | Limit switch enable, enabled by default |
+| Reserved | 54 | - | - | - | Reserved |
+| Reserved | 55 | - | - | - | Reserved |
+| kRampRate | 56 | float32 | V/s | 0 | Voltage ramp rate active for all control modes in % output per second, a value of 0 disables this feature. All APIs take the reciprocal to make the unit 'time from 0 to full'. |
+| kFollowerID | 57 | uint | - | 0 | CAN EXTID of the message with data to follow |
+| kFollowerConfig | 58 | uint | - | 0 | Special configuration register for setting up to follow on a repeating message \(follower mode\). CFG\[0\] to CFG\[3\] where CFG\[0\] is the motor output start bit \(LSB\), CFG\[1\] is the motor output stop bit \(MSB\). CFG\[0\] - CFG\[1\] determines endianness. CFG\[2\] bits determine sign mode and inverted, CFG\[3\] sets a preconfigured controller \(0x1A = REV, 0x1B = Talon/Victor style as of 2018 season\) |
+| kSmartCurrentStallLimit | 59 | uint | A | 80 | Smart Current Limit at stall, or any RPM less than kSmartCurrentConfig RPM. |
+| kSmartCurrentFreeLimit | 60 | uint | A | 20 | Smart current limit at free speed |
+| kSmartCurrentConfig | 61 | uint | - | 10000 | Smart current limit RPM value to start linear reduction of current limit. Set this &gt; free speed to disable. |
+| Reserved | 62 | - | - | - | Reserved |
+| Reserved | 63 | - | - | - | Reserved |
+| Reserved | 64 | - | - | - | Reserved |
+| Reserved | 65 | - | - | - | Reserved |
+| Reserved | 66 | - | - | - | Reserved |
+| Reserved | 67 | - | - | - | Reserved |
+| Reserved | 68 | - | - | - | Reserved |
+| kEncoderCountsPerRev | 69 | uint | - | 4096 | Number of encoder counts in a single revolution, counting every edge on the A and B lines of a quadrature encoder. \(Note: This is different than the CPR spec of the encoder which is 'Cycles per revolution'. This value is 4 \* CPR. |
+| kEncoderAverageDepth | 70 | uint | - | 64 | Number of samples to average for velocity data based on quadrature encoder input. This value can be between 1 and 64. |
+| kEncoderSampleDelta | 71 | uint | per 500us | 200 | Delta time value for encoder velocity measurement in 500μs increments. The velocity calculation will take delta the current sample, and the sample x \* 500μs behind, and divide by this the sample delta time. Can be any number between 1 and 255 |
+| Reserved | 72 | - | - | - | Reserved |
+| Reserved | 73 | - | - | - | Reserved |
+| Reserved | 74 | - | - | - | Reserved |
+| kCompensatedNominalVoltage | 75 | float32 | V | 0 | In voltage compensation mode mode, this is the max scaled voltage. |
+| kSmartMotionMaxVelocity\_0 | 76 | float32 | - | 0 |  |
+| kSmartMotionMaxAccel\_0 | 77 | float32 | - | 0 |  |
+| kSmartMotionMinVelOutput\_0 | 78 | float32 | - | 0 |  |
+| kSmartMotionAllowedClosedLoopError\_0 | 79 | float32 | - | 0 |  |
+| kSmartMotionAccelStrategy\_0 | 80 | float32 | - | 0 |  |
+| kSmartMotionMaxVelocity\_1 | 81 | float32 | - | 0 |  |
+| kSmartMotionMaxAccel\_1 | 82 | float32 | - | 0 |  |
+| kSmartMotionMinVelOutput\_1 | 83 | float32 | - | 0 |  |
+| kSmartMotionAllowedClosedLoopError\_1 | 84 | float32 | - | 0 |  |
+| kSmartMotionAccelStrategy\_1 | 85 | float32 | - | 0 |  |
+| kSmartMotionMaxVelocity\_2 | 86 | float32 | - | 0 |  |
+| kSmartMotionMaxAccel\_2 | 87 | float32 | - | 0 |  |
+| kSmartMotionMinVelOutput\_2 | 88 | float32 | - | 0 |  |
+| kSmartMotionAllowedClosedLoopError\_2 | 89 | float32 | - | 0 |  |
+| kSmartMotionAccelStrategy\_2 | 90 | float32 | - | 0 |  |
+| kSmartMotionMaxVelocity\_3 | 91 | float32 | - | 0 |  |
+| kSmartMotionMaxAccel\_3 | 92 | float32 | - | 0 |  |
+| kSmartMotionMinVelOutput\_3 | 93 | float32 | - | 0 |  |
+| kSmartMotionAllowedClosedLoopError\_3 | 94 | float32 | - | 0 |  |
+| kSmartMotionAccelStrategy\_3 | 95 | float32 | - | 0 |  |
+| kIMaxAccum\_0 | 96 | float32 | - | 0 |  |
+| kSlot3Placeholder1\_0 | 97 | float32 | - | 0 |  |
+| kSlot3Placeholder2\_0 | 98 | float32 | - | 0 |  |
+| kSlot3Placeholder3\_0 | 99 | float32 | - | 0 |  |
+| kIMaxAccum\_1 | 100 | float32 | - | 0 |  |
+| kSlot3Placeholder1\_1 | 101 | float32 | - | 0 |  |
+| kSlot3Placeholder2\_1 | 102 | float32 | - | 0 |  |
+| kSlot3Placeholder3\_1 | 103 | float32 | - | 0 |  |
+| kIMaxAccum\_2 | 104 | float32 | - | 0 |  |
+| kSlot3Placeholder1\_2 | 105 | float32 | - | 0 |  |
+| kSlot3Placeholder2\_2 | 106 | float32 | - | 0 |  |
+| kSlot3Placeholder3\_2 | 107 | float32 | - | 0 |  |
+| kIMaxAccum\_3 | 108 | float32 | - | 0 |  |
+| kSlot3Placeholder1\_3 | 109 | float32 | - | 0 |  |
+| kSlot3Placeholder2\_3 | 110 | float32 | - | 0 |  |
+| kSlot3Placeholder3\_3 | 111 | float32 | - | 0 |  |
+| kPositionConversionFactor | 112 | float32 | - | 1 |  |
+| kVelocityConversionFactor | 113 | float32 | - | 1 |  |
+| kClosedLoopRampRate | 114 | float32 | DC/sec | 0 |  |
+| kSoftLimitFwd | 115 | float32 | - | 0 | Soft limit forward value |
+| kSoftLimitRev | 116 | float32 | - | 0 | Soft limit reverse value |
+| Reserved | 117 | - | - | - | Reserved |
+| Reserved | 118 | - | - | - | Reserved |
+| kAnalogPositionConversion | 119 | float32 | rev/volt | 1 | Conversion factor for position from analog sensor. This value is multiplied by the voltage to give an output value. |
+| kAnalogVelocityConversion | 120 | float32 | vel/v/s | 1 | Conversion factor for velocity from analog sensor. This value is multiplied by the voltage to give an output value. |
+| kAnalogAverageDepth | 121 | uint | - | 0 | Number of samples in moving average of velocity. |
+| kAnalogSensorMode | 122 | uint | - | 0 | 0 Absolute: In this mode the sensor position is always read as voltage \* conversion factor and reads the absolute position of the sensor. In this mode setPosition\(\) does not have an effect.  1 Relative: In this mode the voltage difference is summed to calculate a relative position. |
+| kAnalogInverted | 123 | bool | - | 0 | When inverted, the voltage is calculated as \(ADC Full Scale - ADC Reading\). This means that for absolute mode, the sensor value is 3.3V - voltage. In relative mode the direction is reversed. |
+| kAnalogSampleDelta | 124 | uint | - | 0 | Delta time between samples for velocity measurement |
+| Reserved | 125 | - | - | - | Reserved |
+| Reserved | 126 | - | - | - | Reserved |
+| kDataPortConfig | 127 | uint | - | 0 | 0: Default configuration using limit switches  1: Alternate Encoder Mode - limit switches are disabled and alternate encoder is enabled. This parameter persists through a normal firmware update. |
+| kAltEncoderCountsPerRev | 128 | uint | - | 4096 | Number of encoder counts in a single revolution, counting every edge on the A and B lines of a quadrature encoder. \(Note: This is different than the CPR spec of the encoder which is 'Cycles per revolution'. This value is 4 \* CPR. |
+| kAltEncoderAverageDepth | 129 | uint | - | 64 | Number of samples to average for velocity data based on quadrature encoder input. This value can be between 1 and 64. |
+| kAltEncoderSampleDelta | 130 | uint | - | 200 | Delta time value for encoder velocity measurement in 500μs increments. The velocity calculation will take delta the current sample, and the sample x \* 500μs behind, and divide by this the sample delta time. Can be any number between 1 and 255. |
+| kAltEncoderInverted | 131 | bool | - | 0 | Invert the phase of the encoder sensor. This is useful when the motor direction is opposite of the motor direction. |
+| kAltEncoderPositionFactor | 132 | float32 | - | 1 | Value multiplied by the native units \(rotations\) of the encoder for position. |
+| kAltEncoderVelocityFactor | 133 | float32 | - | 1 | Value multiplied by the native units \(rotations\) of the encoder for velocity. |
+

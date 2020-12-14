@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   xml:space="preserve"
+   width="840"
+   height="127"
+   viewBox="0 0 840 127"
+   sodipodi:docname="PWM Pulse Mapping.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20"><path
+         d="M -2,-2 H 840 V 127 H -2 Z"
+         id="path18"
+         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="1.1568627"
+     inkscape:cx="438.62076"
+     inkscape:cy="-150.43194"
+     inkscape:window-x="4791"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10" /><g
+     id="g10"
+     inkscape:groupmode="layer"
+     inkscape:label="Untitled spreadsheet - Sheet1"
+     transform="matrix(1.3333333,0,0,-1.3333333,-108,744.99998)"><g
+       id="g12"
+       transform="matrix(1,0,0,-1,0,612)"><g
+         id="g14"
+         transform="matrix(0.75,0,0,0.75,81.75,54)"><g
+           id="g16"
+           clip-path="url(#clipPath20)"><path
+             d="M -1,-1 H 839 V 126 H -1 Z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path22"
+             inkscape:connector-curvature="0" /><g
+             id="g24" /><path
+             d="m -0.5,-1 v 127 m 210,-127 v 127 m 101,-106 v 64 m 156,-64 v 64 m 114,-64 v 64 m 157,-64 V 84 M -1,-0.5 h 840 m -630,21 h 630 m -840,21 h 840 m -840,21 h 840 m -840,21 h 840 m -840,21 h 840 m -840,21 H 839 M 838.5,-1 v 127"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path26"
+             inkscape:connector-curvature="0" /><text
+             transform="translate(350,15.040568)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text30"><tspan
+               x="0 11.1254 19.8627 24.624598 33.361897 42.099197 46.861095 50.836498 59.573795 68.311096 73.072998 81.023796 84.999191 92.949997 100.90079 108.85159 112.827 120.77779 124.75319 132.70399 141.44128 150.17859 154.15399 162.89128 166.86668 172.42938 180.38019 188.33099 193.09288 197.06828 205.80559 214.54289 218.51828 223.28018 232.01749 239.96828 244.73018 252.68098 261.41827 265.39368 270.15558 274.13098 282.86829 290.81909 298.76987 307.50717 316.24448 324.19528 332.93259 341.66989"
+               y="0"
+               sodipodi:role="line"
+               id="tspan28">Output duty cycle and direction (default deadband)</tspan></text>
+<text
+             transform="translate(217,36.04057)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text34"><tspan
+               x="0 8.737299 17.474598 21.449999 25.425398 29.400799 39.725399 47.676197 55.626995 63.577797 69.140495 77.091293"
+               y="0"
+               sodipodi:role="line"
+               id="tspan32">Full Reverse</tspan></text>
+<text
+             transform="translate(316,36.04057)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text38"><tspan
+               x="0 9.5380993 15.100799 23.838099 32.575397 41.312698 46.875397 51.637295 55.612698 64.349998 73.087296 81.038094 85.013496 88.988892 99.313492 107.26429 115.2151 123.16589 128.72859 136.6794"
+               y="0"
+               sodipodi:role="line"
+               id="tspan36">Proportional Reverse</tspan></text>
+<text
+             transform="translate(498,36.04057)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text42"><tspan
+               x="0 10.324599 18.275398 27.012697 31.774597 37.337296 45.288097"
+               y="0"
+               sodipodi:role="line"
+               id="tspan40">Neutral</tspan></text>
+<text
+             transform="translate(586,36.04057)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text46"><tspan
+               x="0 9.5380993 15.100799 23.838099 32.575397 41.312698 46.875397 51.637295 55.612698 64.349998 73.087296 81.038094 85.013496 88.988892 97.726196 106.46349 112.02619 123.15159 131.10239 136.66508"
+               y="0"
+               sodipodi:role="line"
+               id="tspan44">Proportional Forward</tspan></text>
+<text
+             transform="translate(745,36.04057)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text50"><tspan
+               x="0 8.737299 17.474598 21.449999 25.425398 29.400799 38.138096 46.875397 52.438095 63.563496 71.514297 77.076996"
+               y="0"
+               sodipodi:role="line"
+               id="tspan48">Full Forward</tspan></text>
+<text
+             transform="translate(3,57.04057)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text54"><tspan
+               x="0 11.1254 19.8627 24.624598 33.361897 42.099197 46.861095 50.836498 59.573795 68.311096 73.072998 81.023796 84.999191 92.949997 100.90079 108.85159 112.827 120.77779 124.75319 128.72859 139.05319 143.02859 147.7905 160.50319"
+               y="0"
+               sodipodi:role="line"
+               id="tspan52">Output duty cycle, D (%)</tspan></text>
+<text
+             transform="translate(234,57.04057)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text58"><tspan
+               x="0 10.324599 14.299999 22.651199 26.626598 34.577396 42.528198"
+               y="0"
+               sodipodi:role="line"
+               id="tspan56">D = 100</tspan></text>
+<text
+             transform="translate(351,57.04057)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text62"><tspan
+               x="0 7.9507995 15.901599 23.852398 27.827799 36.178997 40.154396 50.478996 54.454395 62.805595 66.780998"
+               y="0"
+               sodipodi:role="line"
+               id="tspan60">100 &lt; D &lt; 0</tspan></text>
+<text
+             transform="translate(506,57.04057)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text66"><tspan
+               x="0 10.324599 14.299999 22.651199 26.626598"
+               y="0"
+               sodipodi:role="line"
+               id="tspan64">D = 0</tspan></text>
+<text
+             transform="translate(621,57.04057)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text70"><tspan
+               x="0 7.9507995 11.926199 20.277399 24.252798 34.577396 38.552795 46.903996 50.879398 58.830196 66.780998"
+               y="0"
+               sodipodi:role="line"
+               id="tspan68">0 &lt; D &lt; 100</tspan></text>
+<text
+             transform="translate(762,57.04057)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text74"><tspan
+               x="0 10.324599 14.299999 22.651199 26.626598 34.577396 42.528198"
+               y="0"
+               sodipodi:role="line"
+               id="tspan72">D = 100</tspan></text>
+<text
+             transform="translate(3,78.040565)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text78"><tspan
+               x="0 3.9753997 12.712699 21.449999 30.187298 34.949196 38.924599 47.661896 56.399197 60.374596 68.325394 76.276192 80.251595 91.376991 95.352394 104.08969 108.85159 117.58889 121.56429 125.53969 134.27699 138.2524 143.0143 151.75159 159.70239"
+               y="0"
+               sodipodi:role="line"
+               id="tspan76">Input pulse width, p (µs)</tspan></text>
+<text
+             transform="translate(231,78.040565)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text82"><tspan
+               x="0 7.9507995 11.926199 21.449999 25.425398 33.376198 41.326996 49.277798"
+               y="0"
+               sodipodi:role="line"
+               id="tspan80">p ≤ 1000</tspan></text>
+<text
+             transform="translate(336,78.040565)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text86"><tspan
+               x="0 7.9507995 15.901599 23.852398 31.803198 35.778599 44.129795 48.105198 56.055996 60.031395 68.382599 72.357994 80.308792 88.25959 96.210396"
+               y="0"
+               sodipodi:role="line"
+               id="tspan84">1000 &lt; p &lt; 1475</tspan></text>
+<text
+             transform="translate(470,78.040565)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text90"><tspan
+               x="0 7.9507995 15.901599 23.852398 31.803198 35.778599 45.302399 49.277798 57.228596 61.203995 70.727798 74.703194 82.653992 90.604797 98.555595"
+               y="0"
+               sodipodi:role="line"
+               id="tspan88">1475 ≤ p ≤ 1525</tspan></text>
+<text
+             transform="translate(606,78.040565)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text94"><tspan
+               x="0 7.9507995 15.901599 23.852398 31.803198 35.778599 44.129795 48.105198 56.055996 60.031395 68.382599 72.357994 80.308792 88.25959 96.210396"
+               y="0"
+               sodipodi:role="line"
+               id="tspan92">1525 &lt; p &lt; 2000</tspan></text>
+<text
+             transform="translate(759,78.040565)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text98"><tspan
+               x="0 7.9507995 15.901599 23.852398 31.803198 35.778599 45.302399 49.277798"
+               y="0"
+               sodipodi:role="line"
+               id="tspan96">2000 ≤ p</tspan></text>
+<text
+             transform="translate(3,99.040565)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text102"><tspan
+               x="0 11.9119 19.8627 27.813498 31.788898 44.501598 53.238895 65.951599 69.926994 78.664291 87.401596 91.376991 99.327789 107.27859 111.25399 116.81669 124.76749 133.50479 142.2421 150.19289 154.16829 158.14369 166.88098 170.85638 175.61829 184.35559 192.30638"
+               y="0"
+               sodipodi:role="line"
+               id="tspan100">Maximum pulse range, p (µs)</tspan></text>
+<text
+             transform="translate(474,99.040565)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text106"><tspan
+               x="0 7.9507995 15.901599 23.852398 27.827799 37.351597 41.326996 49.277798 53.253197 62.776997 66.752396 74.703194 82.653992 90.604797"
+               y="0"
+               sodipodi:role="line"
+               id="tspan104">500 ≤ p ≤ 2500</tspan></text>
+<text
+             transform="translate(3,120.04057)"
+             style="font-variant:normal;font-weight:bold;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text110"><tspan
+               x="0 9.5380993 17.488899 21.464298 25.439699 34.176998 38.152397 46.889698 55.626995 59.602394 67.553192 75.503998 79.479393 84.241295 89.803993 97.754791 106.4921 115.22939 123.18019 131.9175 139.86829 147.81909 151.79449 155.76988 160.53178 164.50719 169.26909 179.59369 186.74368"
+               y="0"
+               sodipodi:role="line"
+               id="tspan108">Valid pulse frequency, f (Hz)</tspan></text>
+<text
+             transform="translate(484,120.04057)"
+             style="font-variant:normal;font-weight:normal;font-size:14.29999924px;font-family:HelveticaLTPro;-inkscape-font-specification:HelveticaLTPro-Roman;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text114"><tspan
+               x="0 7.9507995 15.901599 19.876999 29.400799 33.376198 37.351597 41.326996 50.850796 54.826195 62.776997 70.727798"
+               y="0"
+               sodipodi:role="line"
+               id="tspan112">50 ≤ f ≤ 200</tspan></text>
+</g></g></g></g></svg>
