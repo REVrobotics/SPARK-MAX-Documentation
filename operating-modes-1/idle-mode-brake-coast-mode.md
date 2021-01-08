@@ -36,5 +36,5 @@ Follow the steps below to switch the Idle Mode between Brake and Coast with the 
 
 ### Configuration with CAN
 
-Please see the [API Information](../software-resources/spark-max-api-information.md) for information on how to configure the SPARK MAX using the CAN interface. 
+Please see the [API Information](../software-resources/spark-max-api-information/) for information on how to configure the SPARK MAX using the CAN interface. 
 

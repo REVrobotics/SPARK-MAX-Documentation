@@ -91,7 +91,7 @@ This firmware **will not work with SPARK MAX beta hardware units** distributed b
 * Fault flag 'over voltage' replaced with 'IWDT Reset'.
 * Velocity and Position conversion factors are now used for all internal PID calculations.
 
-This firmware update requires an API update. Please see the [API Information](spark-max-api-information.md) section for the latest updates. The table below outlines the compatibility between firmware versions and API versions:
+This firmware update requires an API update. Please see the [API Information](spark-max-api-information/) section for the latest updates. The table below outlines the compatibility between firmware versions and API versions:
 
 ![](../.gitbook/assets/api-compatability-table.svg)
 

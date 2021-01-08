@@ -29,7 +29,7 @@ The SPARK MAX can be connected to a robot CAN network. CAN is a bi-directional c
 Each device on the CAN bus must be assigned a unique CAN ID number. Out of the box, SPARK MAX is assigned a device ID of 0. It is highly recommended to change all SPARK MAX CAN IDs from 0 to any unused ID from 1 to 62. CAN IDs can be changed by connecting the SPARK MAX to a Windows computer and using the [SPARK MAX Client Application](../spark-max-client/getting-started-with-the-spark-max-client/). For details on other SPARK MAX configuration parameters, see [Configuration Parameters](../software-resources/configuration-parameters.md).[  
 ]()
 
-Additional information about the CAN accessible features and how to access them can be found in the [SPARK MAX API Information](../software-resources/spark-max-api-information.md) section.
+Additional information about the CAN accessible features and how to access them can be found in the [SPARK MAX API Information](../software-resources/spark-max-api-information/) section.
 
 ### **Periodic Status Frames**
 

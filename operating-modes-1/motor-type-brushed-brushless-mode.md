@@ -33,5 +33,5 @@ Follow the steps below to switch motor types with the USB and the SPARK MAX Clie
 
 ## Configuration with CAN
 
-Please see the [API Information](../software-resources/spark-max-api-information.md) for information on how to configure the SPARK MAX using the CAN interface. 
+Please see the [API Information](../software-resources/spark-max-api-information/) for information on how to configure the SPARK MAX using the CAN interface. 
 

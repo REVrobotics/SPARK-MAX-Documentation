@@ -24,7 +24,13 @@
 * [Recovery Mode](operating-modes-1/recovery-mode.md)
 * [Alternate Encoder Mode](operating-modes-1/alternate-encoder-mode.md)
 
-## SPARK MAX Client
+## REV Hardware Client
+
+* [Getting Started with the REV Hardware Client](rev-hardware-client/getting-started-with-the-rev-hardware-client/README.md)
+  * [Navigating the REV Hardware Client](rev-hardware-client/getting-started-with-the-rev-hardware-client/navigating-the-rev-hardware-client.md)
+  * [Updating Device Firmware](rev-hardware-client/getting-started-with-the-rev-hardware-client/updating-device-firmware.md)
+
+## SPARK MAX Client - Legacy <a id="spark-max-client"></a>
 
 * [Getting Started with the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/README.md)
   * [Navigating the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/navigating-the-spark-max-client.md)
@@ -34,7 +40,11 @@
 ## Software Resources
 
 * [SPARK MAX Firmware Change Log](software-resources/spark-max-firmware-change-log.md)
-* [SPARK MAX API Information](software-resources/spark-max-api-information.md)
+* [SPARK MAX API Information](software-resources/spark-max-api-information/README.md)
+  * [JAVA API Documentation](https://www.revrobotics.com/content/sw/max/sw-docs/java/index.html)
+  * [JAVA API Documentation \(PDF\)](https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Java-API-Offline.pdf)
+  * [C++ API Documentation](https://www.revrobotics.com/content/sw/max/sw-docs/cpp/index.html)
+  * [C++ API Documentation \(PDF\)](https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Cpp-API-Offline.pdf)
 * [SPARK MAX Code Examples](software-resources/spark-max-code-examples.md)
 * [Configuration Parameters](software-resources/configuration-parameters.md)
 

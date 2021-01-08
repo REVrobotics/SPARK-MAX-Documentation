@@ -4,7 +4,7 @@
 
 Follow the steps below to update the firmware on your SPARK MAX:
 
-* Connect your SPARK MAX Motor Controller to your computer with a USB C cable.
+* Connect your SPARK MAX Motor Controller to your computer with a USB-C cable.
 * Open the REV SPARK MAX Client application.
 * The Client should automatically scan and connect to your SPARK MAX. If your SPARK MAX is running outdated firmware, you will be notified with a pop-up window like the one pictured below:
 
