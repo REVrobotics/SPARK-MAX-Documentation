@@ -5,8 +5,15 @@ Below you will find information on how to download and install the SPARK MAX API
 | **Current API version by Language** |  |
 | :--- | :--- |
 | LabVIEW | 1.5.2 |
-| Java | 1.5.2 |
-| C++ | 1.5.2 |
+| Java | 1.5.4 |
+| C++ | 1.5.4 |
+
+#### Latest API Change Log - Version 1.5.4 - Java/C++ Only
+
+* Updated dependencies for WPILib 2021.1.2
+* Adds basic simulation support 
+* Adds MacOS X support 
+* Fixes issue effecting some C++ projects when using static initialization for the SPARK MAX object
 
 #### Latest API Change Log - Version 1.5.2 - Java/C++ Only
 
@@ -122,7 +129,7 @@ This API update also requires a firmware update. Please see the SPARK MAX Firmwa
 ### LabVIEW API Installation Instructions
 
 1. Download the latest API package from the download link above.
-2. Make sure LabVIEW for FRC 2020 is installed and updated.
+2. Make sure LabVIEW for FRC 2021 is installed and updated.
 3. Open the REV SPARK MAX LabVIEW Package. The NI Package Manager should automatically open.
 4. Click **Next**:
 
@@ -134,7 +141,7 @@ This API update also requires a firmware update. Please see the SPARK MAX Firmwa
 
 ## Java API
 
-| Latest JAVA API - Version 1.5.2 |
+| Latest JAVA API - Version 1.5.4 |
 | :---: |
 | [![](../../.gitbook/assets/download-latest-java-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.2.zip) |
 
@@ -154,9 +161,9 @@ You can use the online method to install the REV Robotics Java API if your devel
 
 **Offline Installation**
 
-#### Latest Java API - Version 1.5.2
+#### Latest Java API - Version 1.5.4
 
-1. Download and unzip the latest SPARK MAX Java API into the _C:\Users\Public\wpilib\2020_ directory on windows and _~/wpilib/2020_ directory on Unix systems.
+1. Download and unzip the latest SPARK MAX Java API into the _C:\Users\Public\wpilib\2020_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
 2. Follow the [Adding an offline-installed Library](https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/3rd-party-libraries.html) instructions from WPI.
 
 #### Java API Documentation
@@ -168,7 +175,7 @@ For a list and description of all classes:
 
 ## C++ API
 
-| Latest C++ API - Version 1.5.2 |
+| Latest C++ API - Version 1.5.4 |
 | :---: |
 | [![](../../.gitbook/assets/download-latest-c++-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.2.zip) |
 
@@ -188,9 +195,9 @@ You can use the online method to install the REV Robotics C++ API if your develo
 
 **Offline Installation**
 
-#### Latest C++ API - Version 1.5.2
+#### Latest C++ API - Version 1.5.4
 
-1. Download and unzip the latest SPARK MAX C++ API into the _C:\Users\Public\wpilib\2020_ directory on windows and _~/wpilib/2020_ directory on Unix systems.
+1. Download and unzip the latest SPARK MAX C++ API into the _C:\Users\Public\wpilib\2020_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
 2. Follow the [Adding an offline-installed Library](https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/3rd-party-libraries.html) instructions from WPI.
 
 #### C++ API Documentation
