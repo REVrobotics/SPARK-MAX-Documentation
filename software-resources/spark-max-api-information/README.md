@@ -143,7 +143,7 @@ This API update also requires a firmware update. Please see the SPARK MAX Firmwa
 
 | Latest JAVA API - Version 1.5.4 |
 | :---: |
-| [![](../../.gitbook/assets/download-latest-java-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.2.zip) |
+| [![](../../.gitbook/assets/download-latest-java-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.4.zip) |
 
 ### Java API Installation Instructions
 
@@ -163,7 +163,7 @@ You can use the online method to install the REV Robotics Java API if your devel
 
 #### Latest Java API - Version 1.5.4
 
-1. Download and unzip the latest SPARK MAX Java API into the _C:\Users\Public\wpilib\2020_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
+1. Download and unzip the latest SPARK MAX Java API into the _C:\Users\Public\wpilib\2021_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
 2. Follow the [Adding an offline-installed Library](https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/3rd-party-libraries.html) instructions from WPI.
 
 #### Java API Documentation
@@ -177,7 +177,7 @@ For a list and description of all classes:
 
 | Latest C++ API - Version 1.5.4 |
 | :---: |
-| [![](../../.gitbook/assets/download-latest-c++-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.2.zip) |
+| [![](../../.gitbook/assets/download-latest-c++-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.4.zip) |
 
 ### C++ API Installation Instructions
 
@@ -197,7 +197,7 @@ You can use the online method to install the REV Robotics C++ API if your develo
 
 #### Latest C++ API - Version 1.5.4
 
-1. Download and unzip the latest SPARK MAX C++ API into the _C:\Users\Public\wpilib\2020_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
+1. Download and unzip the latest SPARK MAX C++ API into the _C:\Users\Public\wpilib\2021_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
 2. Follow the [Adding an offline-installed Library](https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/3rd-party-libraries.html) instructions from WPI.
 
 #### C++ API Documentation
