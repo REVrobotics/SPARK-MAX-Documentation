@@ -143,7 +143,7 @@ This API update also requires a firmware update. Please see the SPARK MAX Firmwa
 
 | Latest JAVA API - Version 1.5.4 |
 | :---: |
-| [![](../../.gitbook/assets/download-latest-java-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.2.zip) |
+| [![](../../.gitbook/assets/download-latest-java-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.4.zip) |
 
 ### Java API Installation Instructions
 
@@ -177,7 +177,7 @@ For a list and description of all classes:
 
 | Latest C++ API - Version 1.5.4 |
 | :---: |
-| [![](../../.gitbook/assets/download-latest-c++-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.2.zip) |
+| [![](../../.gitbook/assets/download-latest-c++-api.svg) ](https://www.revrobotics.com/content/sw/max/sdk/SPARK-MAX-SDK-v1.5.4.zip) |
 
 ### C++ API Installation Instructions
 
