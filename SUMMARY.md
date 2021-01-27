@@ -35,6 +35,7 @@
 * [Getting Started with the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/README.md)
   * [Navigating the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/navigating-the-spark-max-client.md)
   * [Updating Device Firmware](spark-max-client/getting-started-with-the-spark-max-client/updating-device-firmware.md)
+  * [Recovery Mode with the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/recovery-mode-with-the-spark-max-client.md)
 * [SPARK MAX Client Troubleshooting](spark-max-client/troubleshooting.md)
 
 ## Software Resources
