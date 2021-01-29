@@ -11,9 +11,9 @@ The key to effective troubleshooting is isolating the issue. Many issues can sho
 If possible, try to eliminate a section of the system when troubleshooting. For example:
 
 * Rule out a code or control wiring issue:
-  * Use the SPARK MAX Client to run the SPARK MAX over USB.
+  * Use the REV Hardware Client to run the SPARK MAX over USB.
     * **Please be aware of the CAN lockout feature of the SPARK MAX.** If it has been connected to the roboRIO's CAN bus, a safety feature within the SPARK MAX will lock out USB communication. Disconnecting from the CAN bus and power-cycling the MAX will release the lock.
-  * If this is your first time running the SPARK MAX client, see our Troubleshooting tips for the SPARK MAX Client
+  * If this is your first time running the REV Hardware client, see the [Getting Started with the REV Hardware Client](rev-hardware-client/getting-started-with-the-rev-hardware-client/) for a tour of the software and its features.
 * Rule out a code issue:
   * Create a simple test program using our SPARK MAX Example Code.
 * Rule out a mechanical issue:
