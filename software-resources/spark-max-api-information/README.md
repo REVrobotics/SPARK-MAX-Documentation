@@ -163,7 +163,7 @@ You can use the online method to install the REV Robotics Java API if your devel
 
 #### Latest Java API - Version 1.5.4
 
-1. Download and unzip the latest SPARK MAX Java API into the _C:\Users\Public\wpilib\2020_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
+1. Download and unzip the latest SPARK MAX Java API into the _C:\Users\Public\wpilib\2021_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
 2. Follow the [Adding an offline-installed Library](https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/3rd-party-libraries.html) instructions from WPI.
 
 #### Java API Documentation
@@ -197,7 +197,7 @@ You can use the online method to install the REV Robotics C++ API if your develo
 
 #### Latest C++ API - Version 1.5.4
 
-1. Download and unzip the latest SPARK MAX C++ API into the _C:\Users\Public\wpilib\2020_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
+1. Download and unzip the latest SPARK MAX C++ API into the _C:\Users\Public\wpilib\2021_ directory on windows and _~/wpilib/2021_ directory on Unix systems.
 2. Follow the [Adding an offline-installed Library](https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/3rd-party-libraries.html) instructions from WPI.
 
 #### C++ API Documentation
