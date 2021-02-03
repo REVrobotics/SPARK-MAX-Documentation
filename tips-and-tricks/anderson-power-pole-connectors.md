@@ -16,11 +16,11 @@ Dovetails on each housing allow them to slide together. Do not attempt to snap t
 
 ### Anderson Contacts
 
-1327 series housings can use contacts rated for between 15 and 45 amps. The 45 amp connectors are used with the SPARK MAX. When crimping on the connector utilizing a proper crimping tool make sure there is enough wire to crimp into the large set of flaps along with a gap between the two flaps after the crimp.
+1327 series housings can use contacts rated for between 15 and 45 amps. The 45 amp contacts are used with the SPARK MAX. When striping wire for the contact, make sure the stripped wire is the length of the large flap. No wire should extend past the large flap into the gap between the large and small flaps on the contact. Utilize a proper crimping tool when crimping on the connector.
 
 ![](../.gitbook/assets/goodcrimp.svg)
 
-When crimping wire into the contact make sure there is enough wire to fill the gap between the large flaps. Having too much wire exposed can cause issues with proper placement in the housing making for a bad connection. If the contacts are not fully inserted into the housing the contact connection issues can arise.
+Having too much wire exposed can cause issues with proper placement of the contact in the housing. This can lead to bad connections. If the contacts are not fully inserted into the housing the contact connection issues can arise. The images above are examples of good crimps with the proper amount of wire inserted into the contact.
 
 ![](../.gitbook/assets/contact-diagram.svg)
 
