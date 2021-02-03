@@ -3,7 +3,7 @@
 Located on the motor output side of the SPARK MAX is a 6-pin Encoder Port. This port is designed to accept the built-in hall-encoder from the [NEO Brushless Motor](http://www.revrobotics.com/rev-21-1650/), but it can also connect to other external encoders when running in Brushed Mode. The connector details can be found below.
 
 {% hint style="info" %}
-The SPARK MAX can be configured to run in [Alternate Encoder Mode](../operating-modes-1/alternate-encoder-mode.md), which reconfigures the Data Port on the top of the controller to accept an alternative quadrature encoder in addition to the Encoder Port.
+The SPARK MAX can be configured to run in [Alternate Encoder Mode](../operating-modes/alternate-encoder-mode.md), which reconfigures the Data Port on the top of the controller to accept an alternative quadrature encoder in addition to the Encoder Port.
 {% endhint %}
 
 ![](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/encoderportpinout.png)

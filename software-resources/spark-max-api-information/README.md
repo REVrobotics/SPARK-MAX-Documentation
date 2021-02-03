@@ -124,7 +124,7 @@ This API update also requires a firmware update. Please see the SPARK MAX Firmwa
 
 | Latest LabVIEW API - Version 1.5.2 |
 | :---: |
-| [![](../../.gitbook/assets/download-latest-labview-api.svg)](https://www.revrobotics.com/content/sw/max/labview/rev-spark-max_1.5.2-0_windows_all.nipkg)  |
+| [![](../../.gitbook/assets/download-latest-labview-api.svg)](https://www.revrobotics.com/content/sw/max/labview/rev-spark-max_1.5.2-0_windows_all.nipkg) |
 
 ### LabVIEW API Installation Instructions
 
@@ -157,7 +157,7 @@ You can use the online method to install the REV Robotics Java API if your devel
 4. Select **Install new library \(online\)**.
 5. Enter the following installation URL and press ENTER:
 
-   https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json
+   [https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json](https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json)
 
 **Offline Installation**
 
@@ -191,7 +191,7 @@ You can use the online method to install the REV Robotics C++ API if your develo
 4. Select **Install new library \(online\)**.
 5. Enter the following installation URL and press ENTER:
 
-   https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json
+   [https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json](https://www.revrobotics.com/content/sw/max/sdk/REVRobotics.json)
 
 **Offline Installation**
 

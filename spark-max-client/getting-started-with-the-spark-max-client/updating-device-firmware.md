@@ -20,7 +20,7 @@ If your SPARK MAX is running firmware older than 1.4.0, you may not see a pop-up
 ![](../../.gitbook/assets/serial_bridge.png)
 
 {% hint style="info" %}
-If your SPARK MAX is listed and you are unable to click the checkbox next to it, you must put your SPARK MAX into [Recovery Mode](../../operating-modes-1/recovery-mode.md). 
+If your SPARK MAX is listed and you are unable to click the checkbox next to it, you must put your SPARK MAX into [Recovery Mode](../../operating-modes/recovery-mode.md). 
 {% endhint %}
 
 * Select the latest firmware file in the firmware directory that the client created on startup. If there isn't a firmware directory, you can also navigate to a file that was downloaded manually. Click **Open** once the appropriate firmware file is selected:

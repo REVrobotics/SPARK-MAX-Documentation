@@ -18,7 +18,7 @@ Motor output wires are labeled as A, B, and C with red, black, and white wires. 
 
 ![](../.gitbook/assets/motor-ouput-graphic.svg)
 
-SPARK MAX cannot detect which motor type it is connected to. Be sure to configure the SPARK MAX to run the type of motor you have connected. See the [Motor Type - Brushed/Brushless Mode](../operating-modes-1/motor-type-brushed-brushless-mode.md) section for more details on configuring the appropriate motor type.
+SPARK MAX cannot detect which motor type it is connected to. Be sure to configure the SPARK MAX to run the type of motor you have connected. See the [Motor Type - Brushed/Brushless Mode](../operating-modes/motor-type-brushed-brushless-mode.md) section for more details on configuring the appropriate motor type.
 
 ## Power Input
 

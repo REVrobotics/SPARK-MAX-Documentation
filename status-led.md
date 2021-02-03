@@ -35,7 +35,7 @@ SPARK MAX will indicate important status information on its multi-colored STATUS
 | CAN Bootloader Firmware Updating | White/Yellow Blink \(v1.5.0\) Green/Magenta Blink \(v1.4.0\) | ![mode-can-bootloader.gif](https://cdn11.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/mode-can-bootloader.gif) |
 | CAN Bootloader Firmware Retry | White/Blue Blink | ![mode-can-bootloader-retry.gif](https://cdn11.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/mode-can-bootloader-retry.gif) |
 | USB DFU \(Device Firmware Update\) | Dark \(LED off\) | ![Dark LED](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/off.png) |
-| [Recovery Mode](operating-modes-1/recovery-mode.md) | Dark \(LED off\) | ![Dark LED](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/off.png) |
+| [Recovery Mode](operating-modes/recovery-mode.md) | Dark \(LED off\) | ![Dark LED](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/off.png) |
 
 ### Fault Conditions
 
@@ -45,5 +45,5 @@ SPARK MAX will indicate important status information on its multi-colored STATUS
 | Sensor Fault | This fault is only shown when using a brushless motor. This can occur if the sensor type is misconfigured, the sensor cable is not plugged in or damaged, or if a sensor other than the motor sensor is plugged in. | Orange/Magenta Slow Blink  | ![fault-encoder.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/fault-encoder.gif) |
 | Gate Driver Fault | A fault reported by the core internal electronic circuitry. If this code persists after power cycling the controller, contact REV. | Orange/Cyan Slow Blink | ![fault-gate-driver.gif](https://cdn11.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/fault-gate-driver.gif) |
 | CAN Fault | The CAN fault will be shown after the first time the device is plugged into the CAN port and a fault later occurs. Check your CAN wiring if you see this fault. | Orange/Yellow Slow Blink | ![fault-can.gif](https://cdn11.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/fault-can.gif) |
-| Corrupt Firmware \(recover using [Recovery Mode](operating-modes-1/recovery-mode.md)\) | Firmware failed to load. | Dark \(LED off\) | ![Dark LED](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/off.png) |
+| Corrupt Firmware \(recover using [Recovery Mode](operating-modes/recovery-mode.md)\) | Firmware failed to load. | Dark \(LED off\) | ![Dark LED](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/off.png) |
 

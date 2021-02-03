@@ -2,8 +2,8 @@
 
 SPARK MAX has many operating modes that can be configured through its CAN and USB interfaces. Additionally, the following basic operating modes can be configured with the MODE button located on the top of the SPARK MAX:
 
-* [Idle Behavior](../operating-modes-1/idle-mode-brake-coast-mode.md): Brake/Coast
-* [Motor Type](../operating-modes-1/motor-type-brushed-brushless-mode.md): Brushed/Brushless
+* [Idle Behavior](../operating-modes/idle-mode-brake-coast-mode.md): Brake/Coast
+* [Motor Type](../operating-modes/motor-type-brushed-brushless-mode.md): Brushed/Brushless
 
 **Mode configuration must be done with power applied to the SPARK MAX.**
 

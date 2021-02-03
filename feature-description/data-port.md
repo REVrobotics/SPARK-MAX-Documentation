@@ -33,7 +33,7 @@ The default polarity is compatible with Normally Open \(NO\) style limit switche
 
 ## Quadrature Encoder Input
 
-The Quadrature Encoder Input on the Data Port is compatible with standard quadrature encoder signals, usually labeled as channel A, channel B, and Index. SPARK MAX shares these signals with the Encoder Port on the output side of the controller, therefore the Index signal is shared with the third brushless encoder signal C. When in Brushless Mode, these Data Port pins cannot be used with an external encoder. See [Alternate Encoder Mode](../operating-modes-1/alternate-encoder-mode.md) for information on how to configure the SPARK MAX to accept an alternative encoder source when running in Brushless Mode.
+The Quadrature Encoder Input on the Data Port is compatible with standard quadrature encoder signals, usually labeled as channel A, channel B, and Index. SPARK MAX shares these signals with the Encoder Port on the output side of the controller, therefore the Index signal is shared with the third brushless encoder signal C. When in Brushless Mode, these Data Port pins cannot be used with an external encoder. See [Alternate Encoder Mode](../operating-modes/alternate-encoder-mode.md) for information on how to configure the SPARK MAX to accept an alternative encoder source when running in Brushless Mode.
 
 When in Brushed Mode, an external encoder can be connected through either the Data Port or the Encoder Port.
 

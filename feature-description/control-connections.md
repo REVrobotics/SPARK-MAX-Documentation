@@ -1,6 +1,6 @@
 # Control Connections
 
-The SPARK MAX can be controlled by three different interfaces, servo-style PWM, controller area network \(CAN\), and USB. The following sections describe the physical connections to these interfaces in detail. For details on the operation and protocols of the PWM, CAN, and USB interfaces, please see the [section on Control Interfaces](../operating-modes-1/control-interfaces.md).
+The SPARK MAX can be controlled by three different interfaces, servo-style PWM, controller area network \(CAN\), and USB. The following sections describe the physical connections to these interfaces in detail. For details on the operation and protocols of the PWM, CAN, and USB interfaces, please see the [section on Control Interfaces](../operating-modes/control-interfaces.md).
 
 ## CAN/PWM Port
 

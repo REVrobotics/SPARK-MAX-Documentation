@@ -15,14 +15,14 @@
 * [Encoder Port](feature-description/encoder-port.md)
 * [Data Port](feature-description/data-port.md)
 
-## Operating Modes <a id="operating-modes-1"></a>
+## Operating Modes
 
-* [Motor Type - Brushed/Brushless Mode](operating-modes-1/motor-type-brushed-brushless-mode.md)
-* [Idle Mode - Brake/Coast Mode](operating-modes-1/idle-mode-brake-coast-mode.md)
-* [Control Interfaces](operating-modes-1/control-interfaces.md)
-* [Closed Loop Control](operating-modes-1/closed-loop-control.md)
-* [Recovery Mode](operating-modes-1/recovery-mode.md)
-* [Alternate Encoder Mode](operating-modes-1/alternate-encoder-mode.md)
+* [Motor Type - Brushed/Brushless Mode](operating-modes/motor-type-brushed-brushless-mode.md)
+* [Idle Mode - Brake/Coast Mode](operating-modes/idle-mode-brake-coast-mode.md)
+* [Control Interfaces](operating-modes/control-interfaces.md)
+* [Closed Loop Control](operating-modes/closed-loop-control.md)
+* [Recovery Mode](operating-modes/recovery-mode.md)
+* [Alternate Encoder Mode](operating-modes/alternate-encoder-mode.md)
 
 ## REV Hardware Client
 
