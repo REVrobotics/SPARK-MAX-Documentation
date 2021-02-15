@@ -15,7 +15,7 @@ The CAN/PWM Port is located on the power input side of the SPARK MAX. This port 
 | 1 | CAN High | Signal |
 | 2 | CAN Low | Ground |
 | 3 | CAN High | Signal |
-| 4 | CAN High | Ground |
+| 4 | CAN Low | Ground |
 
 #### Matting Connector Information
 
