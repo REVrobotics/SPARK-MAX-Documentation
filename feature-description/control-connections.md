@@ -8,7 +8,7 @@ The CAN/PWM Port is located on the power input side of the SPARK MAX. This port 
 
 ![](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/can-pwm-portpinout.png)
 
-#### CAN/PWM Port Connector Information
+### CAN/PWM Port Connector Information
 
 | Connector Pin | CAN Function | PWM Function |
 | :--- | :--- | :--- |
@@ -17,7 +17,7 @@ The CAN/PWM Port is located on the power input side of the SPARK MAX. This port 
 | 3 | CAN High | Signal |
 | 4 | CAN Low | Ground |
 
-#### Matting Connector Information
+### Matting Connector Information
 
 | **Description** | **Manufacturer** | **Part Number** | **Vendor** | **Vendor P/N** |
 | :--- | :--- | :--- | :--- | :--- |
@@ -25,7 +25,7 @@ The CAN/PWM Port is located on the power input side of the SPARK MAX. This port 
 | JST-PH Contact | JST | SPH-002T-P0.5L | DigiKey | [455-2148-1-ND](https://www.digikey.com/products/en?keywords=455-2148-1-ND) |
 | Recommended Crimping Tool | IWISS | SN-2549 | Amazon | [SN-2549](https://www.amazon.com/IWISS-Crimping-AWG28-18-Ratcheting-Connector/dp/B01N4L8QMW/ref=sr_1_2?ie=UTF8&qid=1546882885&sr=8-2&keywords=sn-2549) |
 
-Identical-function pins are electrically connected inside the SPARK MAX, therefore the CAN daisy-chain is completed internally and any two signal and ground pairs can be used for PWM. 
+Identical-function pins are electrically connected inside the SPARK MAX, therefore the CAN daisy-chain is completed internally and any two signal and ground pairs can be used for PWM.
 
 ## USB-C Port
 

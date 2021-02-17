@@ -19,7 +19,7 @@ The SPARK MAX can be configured to run in Alternate Encoder Mode, which reconfig
 | †  | Index pulses are not currently supported |
 
 {% hint style="danger" %}
- **Before connecting a sensor with 5V output**, the SPARK MAX **must first be configured** into Alternate Encoder Mode and have its configuration **must be saved** on the SPARK MAX. This can be done through the SPARK MAX Client or the software APIs.
+ **Before connecting a sensor with 5V output**, the SPARK MAX **must first be configured** into Alternate Encoder Mode and its configuration **must be saved** on the SPARK MAX. This can be done through the SPARK MAX Client or the software APIs.
 {% endhint %}
 
 #### Maximum RPM with Common Quadrature Encoders
