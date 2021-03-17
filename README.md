@@ -65,6 +65,10 @@ DO NOT exceed the maximum electrical specifications. Doing so will cause permane
 Continuous operation at 60A may produce high temperatures on the heat sink. Caution should be taken when handling the SPARK MAX if it has been running at higher current level for an extended period of time.
 {% endhint %}
 
+{% hint style="warning" %}
+If using a battery to power SPARK MAX, make sure the fully charged voltage is below 24V allowing for sustained operation. Some battery chemistries and configurations, including 6S LiPo packs, have a charge voltage above the maximum operating voltage for SPARK MAX.
+{% endhint %}
+
 ### PWM Input Specifications
 
 | **Parameter** | **Min** | **Typ** | **Max** | **Units** |
