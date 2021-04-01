@@ -6,7 +6,7 @@ The SPARK MAX can be controlled by three different interfaces, servo-style PWM, 
 
 The SPARK MAX can accept a standard servo-style PWM signal as a control for the output duty cycle. Even though the PWM port is shared with the CAN port, SPARK MAX will automatically detect the incoming signal type and respond accordingly. For details on how to connect a PWM cable to the SPARK MAX, see [CAN/PWM Port](../feature-description/control-connections.md#can-pwm-port).
 
-The SPARK MAX responds to a factory default pulse range of 1000µs to 2000µs. These pulses correspond to full-reverse and full-forward rotation, respectively, with 1500µs \(±5% default input deadband\) as the neutral position, i.e. no rotation. The input deadband is configurable with the SPARK MAX Client Application or the CAN interface. The table below describes how the default pulse range maps to the output behavior.
+The SPARK MAX responds to a factory default pulse range of 1000µs to 2000µs. These pulses correspond to full-reverse and full-forward rotation, respectively, with 1500µs \(±5% default input deadband\) as the neutral position, i.e. no rotation. The input deadband is configurable with the [REV Hardware Client](../rev-hardware-client/getting-started-with-the-rev-hardware-client/navigating-the-rev-hardware-client.md) or the CAN interface. The table below describes how the default pulse range maps to the output behavior.
 
 #### PWM Pulse Mapping
 
@@ -26,7 +26,7 @@ The SPARK MAX can be connected to a robot CAN network. CAN is a bi-directional c
 | :--- | :--- | :--- | :--- | :--- |
 | Device Type | Manufacturer | API Class | API Index | Device ID |
 
-Each device on the CAN bus must be assigned a unique CAN ID number. Out of the box, SPARK MAX is assigned a device ID of 0. It is highly recommended to change all SPARK MAX CAN IDs from 0 to any unused ID from 1 to 62. CAN IDs can be changed by connecting the SPARK MAX to a Windows computer and using the [SPARK MAX Client Application](../spark-max-client/getting-started-with-the-spark-max-client/). For details on other SPARK MAX configuration parameters, see [Configuration Parameters](../software-resources/configuration-parameters.md).[  
+Each device on the CAN bus must be assigned a unique CAN ID number. Out of the box, SPARK MAX is assigned a device ID of 0. It is highly recommended to change all SPARK MAX CAN IDs from 0 to any unused ID from 1 to 62. CAN IDs can be changed by connecting the SPARK MAX to a Windows computer and using the [REV Hardware Client](../rev-hardware-client/getting-started-with-the-rev-hardware-client/). For details on other SPARK MAX configuration parameters, see [Configuration Parameters](../software-resources/configuration-parameters.md).[  
 ]()
 
 Additional information about the CAN accessible features and how to access them can be found in the [SPARK MAX API Information](../software-resources/spark-max-api-information/) section.
@@ -125,7 +125,7 @@ The Periodic Status 0 frame can be increased to achieve this.
 
 ## USB Interface
 
-The SPARK MAX can be configured and controlled through a USB connection to a computer running the [SPARK MAX Client Application](../spark-max-client/getting-started-with-the-spark-max-client/). The USB interface utilizes a standard CDC \(USB to Serial\) driver. The command interface is similar to CAN, using the same ID and data structure, but always sends and receives a full 12-byte packet. The CAN ID is omitted \(DNC\) when talking directly to the device. However, the three MSB of the ID allow selection of alternate commands:
+The SPARK MAX can be configured and controlled through a USB connection to a computer running the [REV Hardware Client](../rev-hardware-client/getting-started-with-the-rev-hardware-client/navigating-the-rev-hardware-client.md). The USB interface utilizes a standard CDC \(USB to Serial\) driver. The command interface is similar to CAN, using the same ID and data structure, but always sends and receives a full 12-byte packet. The CAN ID is omitted \(DNC\) when talking directly to the device. However, the three MSB of the ID allow selection of alternate commands:
 
 * 0b000 - Standard command - CAN ID omitted \(DNC\)
 * 0b001 - Extended command - USB specific

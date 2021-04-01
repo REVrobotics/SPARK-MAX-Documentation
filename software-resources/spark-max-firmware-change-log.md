@@ -1,6 +1,6 @@
 # SPARK MAX Firmware Change Log
 
-It is recommended to keep your SPARK MAX up-to-date with the latest firmware. The SPARK MAX Client application will automatically download the latest firmware, but you can also download the firmware manually below:
+It is recommended to keep your SPARK MAX up-to-date with the latest firmware. The REV Hardware Client application will automatically download the latest firmware, but you can also download the firmware manually below:
 
 | Latest Firmware - Version 1.5.2 |
 | :---: |
@@ -133,7 +133,7 @@ This firmware update requires an API update. Please see the [API Information](sp
 
 ## Factory Images
 
-When updating the SPARK MAX Firmware we recommend using the SPARK MAX Client and the latest firmware file listed in the [firmware changelog](spark-max-firmware-change-log.md). When updating normally, key configuration parameters, such as the CAN ID, will be preserved through an update, preventing the need to reconfigure every time you update. In some rare instances it may be beneficial to completely reinstall the factory firmware and reset all configuration parameters. Factory images can be found below:
+When updating the SPARK MAX Firmware we recommend using the REV Hardware Client and the latest firmware file listed in the [firmware changelog](spark-max-firmware-change-log.md). When updating normally, key configuration parameters, such as the CAN ID, will be preserved through an update, preventing the need to reconfigure every time you update. In some rare instances it may be beneficial to completely reinstall the factory firmware and reset all configuration parameters. Factory images can be found below:
 
 * [Factory Image Version 1.1.33](https://www.revrobotics.com/content/sw/max/firmware/SPARK-MAX-Firmware_v1.1.33_FactoryDefaults.dfu)
 * [Factory Image Version 1.1.31](https://www.revrobotics.com/content/sw/max/firmware/SPARK-MAX-Firmware_v1.1.31_FactoryDefaults.dfu)

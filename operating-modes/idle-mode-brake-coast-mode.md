@@ -30,7 +30,7 @@ Please see the [Status LED Colors and Patterns](../status-led.md) for more detai
 Follow the steps below to switch the Idle Mode between Brake and Coast with the USB and the REV Hardware Client application. Be sure to download and install the [REV Hardware Client](https://docs.revrobotics.com/rev-hardware-client/) application before continuing.
 
 1. Connect the SPARK MAX to your computer using a USB-C cable.
-2. Open the SPARK MAX Client application and verify that the application is connected to your SPARK MAX.
+2. Open the REV Hardware Client application and verify that the application is connected to your SPARK MAX.
 3. On the **Basic** tab, select the desired mode with the **Idle Mode** switch.
 4. Click **Update Configuration** and confirm the change.
 
