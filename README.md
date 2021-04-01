@@ -117,7 +117,7 @@ If using a battery to power SPARK MAX, make sure the fully charged voltage is be
       <td style="text-align:left">&#x2021;&#x2021;</td>
       <td style="text-align:left">Input deadband is added to each side of the neutral pulse width. Within
         the deadband, output state is neutral. The deadband value is configurable
-        using the SPARK MAX Client Application or through the CAN interface.</td>
+        using the REV Hardware Client or through the CAN interface.</td>
     </tr>
   </tbody>
 </table>
