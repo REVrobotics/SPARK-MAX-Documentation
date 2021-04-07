@@ -1,6 +1,7 @@
 # Table of contents
 
 * [SPARK MAX Overview](README.md)
+* [SPARK MAX Specifications](specifications.md)
 * [Getting Started with SPARK MAX](gs-sm/README.md)
   * [Wiring the SPARK MAX](gs-sm/wiring-the-spark-max.md)
   * [Make it Spin!](gs-sm/connect-a-spark-max-over-usb.md)
