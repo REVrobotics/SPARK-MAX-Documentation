@@ -2,11 +2,11 @@
 
 Below you will find information on how to download and install the SPARK MAX APIs for LabVIEW, Java, and C++.
 
-| **Current API version by Language** |  |
-| :--- | :--- |
-| LabVIEW | 1.5.2 |
-| Java | 1.5.4 |
-| C++ | 1.5.4 |
+| **Language** | Current API Version | Documentation |
+| :--- | :---: | :---: |
+| [LabVIEW](./#labview-api) | 1.5.2 | Embedded \(Press Ctrl-H\) |
+| [Java](./#java-api) | 1.5.4 | [Java Docs](./#java-api-documentation) |
+| [C++](./#c-api) | 1.5.4 | [C++ Docs](./#c-api-documentation) |
 
 #### Latest API Change Log - Version 1.5.4 - Java/C++ Only
 
