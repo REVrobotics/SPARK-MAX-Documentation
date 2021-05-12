@@ -9,7 +9,15 @@ Below is a diagram and the firmware implementation of the internal SPARK MAX PID
 ![](https://cdn11.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/pidfdiagram2.png)
 
 ```c
-//Synchronous PID, call at desired frequency
+// Synchronous PID, called at 1kHz.
+// The output is always in normalized units (i.e. 1 = full forward, -1 = full reverse).
+// setpoint is always in native units for the corresponding control method (e.g. rotations, RPM, Amps, Volts).
+// As a result, the constants have the following units:
+//   kP, kF: normalized/native
+//   kI: normalized/(native*ms)
+//   kD: normalized/(native/ms)
+//   kMinOutput, kMaxOutput: normalized
+//   iZone: native
 float pid_run(pid_instance_t* pid, float setpoint, float pv,
         const pid_constants_t* constants)
 {
