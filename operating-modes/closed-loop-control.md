@@ -11,7 +11,8 @@ Below is a diagram and the firmware implementation of the internal SPARK MAX PID
 ```c
 // Synchronous PID, called at 1kHz.
 // The output is always in normalized units (i.e. 1 = full forward, -1 = full reverse).
-// setpoint is always in native units for the corresponding control method (e.g. rotations, RPM, Amps, Volts).
+// The setpoint below is always in native units for the corresponding control method (e.g. rotations, RPM, Amps, Volts),
+// after any conversion factors have been applied to the setpoint passed to setReference().
 // As a result, the constants have the following units:
 //   kP, kF: normalized/native
 //   kI: normalized/(native*ms)
