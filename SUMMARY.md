@@ -49,6 +49,7 @@
   * [C++ API Documentation \(PDF\)](https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Cpp-API-Offline.pdf)
 * [SPARK MAX Code Examples](software-resources/spark-max-code-examples.md)
 * [Configuration Parameters](software-resources/configuration-parameters.md)
+* [Migrating from CTRE Phoenix to SPARK MAX](software-resources/migrating-ctre-to-rev.md)
 
 ## Tips and Tricks
 
