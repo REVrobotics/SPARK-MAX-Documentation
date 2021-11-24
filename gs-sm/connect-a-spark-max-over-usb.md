@@ -2,7 +2,7 @@
 
 ## Power On
 
-Now that the device is wired, and the connections carefully checked, power on the robot. You should see the SPARK MAX slowly blinking its for a new device the color will be Magenta. If the LED is dark, or you see a different blink pattern, refer to the [Status LED](../status-led.md) guide for troubleshooting.&#x20;
+Now that the device is wired, and the connections carefully checked, power on the robot. You should see the SPARK MAX slowly blinking its for a new device the color will be Magenta. If the LED is dark, or you see a different blink pattern, refer to the [Status LED](../status-led.md) guide for troubleshooting.
 
 {% hint style="info" %}
 If you are using a brushed motor, you may see a sensor error. This is expected until you configure the device to accept a brushed motor in the following steps.
@@ -53,17 +53,18 @@ Any settings saved this way will be remembered when the device is powered back o
 ## Spin the Motor
 
 {% hint style="danger" %}
-Before running any motor, make sure all components are in a safe state, that the motor is secured, and anyone nearby is aware. FRC motors are very powerful and can quickly cause damage to people and property.&#x20;
+Before running any motor, make sure all components are in a safe state, that the motor is secured, and anyone nearby is aware. FRC motors are very powerful and can quickly cause damage to people and property. 
 {% endhint %}
 
 {% hint style="info" %}
 Keep the CAN cable disconnected throughout the test. For safety reasons, the SPARK MAX Client will not run the motor if the roboRIO is connected. If the roboRIO was connected, power cycle the SPARK MAX.
 {% endhint %}
 
-To spin the motor, go to the Run tab, keep all of the default settings and press _Run_ _Motor. _The _setpoint_ is 0 by default, meaning that the motor is being commanded to **idle** (0% power). When you press _Run_ you should see the LED go from slow blinking to solid, indicating that the motor is idling.
+To spin the motor, go to the Run tab, keep all of the default settings and press _Run_ _Motor._ The _setpoint_ is 0 by default, meaning that the motor is being commanded to **idle** \(0% power\). When you press _Run_ you should see the LED go from slow blinking to solid, indicating that the motor is idling.
 
 ![](../.gitbook/assets/spark-max-run-single-device.svg)
 
-**Slowly **ramp the setpoint slider up. The motor should start to spin and you should see a green blink pattern proportional to the speed you have set to the motor. Slowly ramp the slider down. The motor should spin in reverse, and you should see a red blink pattern proportional to the speed you have set to the motor.
+**Slowly** ramp the setpoint slider up. The motor should start to spin and you should see a green blink pattern proportional to the speed you have set to the motor. Slowly ramp the slider down. The motor should spin in reverse, and you should see a red blink pattern proportional to the speed you have set to the motor.
 
 If you are unable to spin the motor, visit our [troubleshooting guide](../spark-max-client/troubleshooting.md).
+
