@@ -31,22 +31,14 @@
   * [Navigating the REV Hardware Client](rev-hardware-client/getting-started-with-the-rev-hardware-client/navigating-the-rev-hardware-client.md)
   * [Updating Device Firmware](rev-hardware-client/getting-started-with-the-rev-hardware-client/updating-device-firmware.md)
 
-## SPARK MAX Client - Legacy <a id="spark-max-client"></a>
-
-* [Getting Started with the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/README.md)
-  * [Navigating the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/navigating-the-spark-max-client.md)
-  * [Updating Device Firmware](spark-max-client/getting-started-with-the-spark-max-client/updating-device-firmware.md)
-  * [Recovery Mode with the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/recovery-mode-with-the-spark-max-client.md)
-* [SPARK MAX Client Troubleshooting](spark-max-client/troubleshooting.md)
-
 ## Software Resources
 
 * [SPARK MAX Firmware Change Log](software-resources/spark-max-firmware-change-log.md)
 * [SPARK MAX API Information](software-resources/spark-max-api-information/README.md)
   * [JAVA API Documentation](https://www.revrobotics.com/content/sw/max/sw-docs/java/index.html)
-  * [JAVA API Documentation \(PDF\)](https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Java-API-Offline.pdf)
+  * [JAVA API Documentation (PDF)](https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Java-API-Offline.pdf)
   * [C++ API Documentation](https://www.revrobotics.com/content/sw/max/sw-docs/cpp/index.html)
-  * [C++ API Documentation \(PDF\)](https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Cpp-API-Offline.pdf)
+  * [C++ API Documentation (PDF)](https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Cpp-API-Offline.pdf)
 * [SPARK MAX Code Examples](software-resources/spark-max-code-examples.md)
 * [Configuration Parameters](software-resources/configuration-parameters.md)
 * [Migrating from CTRE Phoenix to SPARK MAX](software-resources/migrating-ctre-to-rev.md)
@@ -55,3 +47,10 @@
 
 * [Anderson Powerpole Connectors](tips-and-tricks/anderson-power-pole-connectors.md)
 
+## SPARK MAX Client - Legacy <a href="#spark-max-client" id="spark-max-client"></a>
+
+* [Getting Started with the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/README.md)
+  * [Navigating the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/navigating-the-spark-max-client.md)
+  * [Updating Device Firmware](spark-max-client/getting-started-with-the-spark-max-client/updating-device-firmware.md)
+  * [Recovery Mode with the SPARK MAX Client](spark-max-client/getting-started-with-the-spark-max-client/recovery-mode-with-the-spark-max-client.md)
+* [SPARK MAX Client Troubleshooting](spark-max-client/troubleshooting.md)

@@ -1,8 +1,12 @@
 # Navigating the SPARK MAX Client
 
+{% hint style="info" %}
+This is **legacy documentation** for our discontinued SPARK MAX Client Software. If you are interested in running a SPARK MAX via a computer, please see our newer documentation: [Getting Started with the REV Hardware Client.](../../rev-hardware-client/getting-started-with-the-rev-hardware-client/)
+{% endhint %}
+
 ## Navigation Bar
 
-The Navigation bar is visible on all tabs of the SPARK MAX Client and allows you to select with SPARK MAX the Client is connected to.
+The Navigation bar is visible on all tabs of the SPARK MAX Client and allows you to select with SPARK MAX the Client is connected to.&#x20;
 
 ![](../../.gitbook/assets/navigation.svg)
 
@@ -60,4 +64,3 @@ The Network Tab shows all connected devices via USB and the USB to CAN interface
 {% hint style="info" %}
 For more information on the firmware updating process see [Updating Device Firmware](updating-device-firmware.md) for both [single device](updating-device-firmware.md#updating-a-single-device) and [multiple device](updating-device-firmware.md#updating-multiple-devices-with-the-usb-to-can-bridge) updates.
 {% endhint %}
-
