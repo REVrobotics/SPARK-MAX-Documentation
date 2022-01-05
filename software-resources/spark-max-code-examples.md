@@ -1,6 +1,6 @@
 # SPARK MAX Code Examples
 
-At the links below you will find code examples in LabVIEW, Java, and C++ for common SPARK MAX control modes. We will be adding examples as we develop them, so please check back regularly. Examples included as of 2/6/19:
+At the links below you will find code examples in LabVIEW, Java, and C++ for common SPARK MAX control modes. We will be adding examples as we develop them, so please check back regularly. Examples included as of 2/6/19:&#x20;
 
 * [LabVIEW Code Examples](https://github.com/REVrobotics/SPARK-MAX-Examples/tree/master/LabVIEW)
   * Alternate Encoder
@@ -43,7 +43,6 @@ At the links below you will find code examples in LabVIEW, Java, and C++ for com
 
 Even though some examples may only exist in a particular language, they can be a good place to start as the APIs are very similar between languages.
 
-|  |
-| :---: |
-| [![](../.gitbook/assets/code-examples-image-v2.svg) ](https://github.com/REVrobotics/SPARK-MAX-Examples) |
-
+|                                                                                                            |
+| :--------------------------------------------------------------------------------------------------------: |
+| [![](<../.gitbook/assets/Code Examples Image v2.svg>) ](https://github.com/REVrobotics/SPARK-MAX-Examples) |

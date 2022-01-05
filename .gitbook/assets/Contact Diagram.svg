@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg1195"
+   width="1000"
+   height="400"
+   viewBox="0 0 1000 400"
+   sodipodi:docname="Contact Diagram.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata1201">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1199">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1752">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1754"
+         width="617.9873"
+         height="264.85168"
+         x="18.185381"
+         y="-138.31145" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     id="namedview1197"
+     showgrid="false"
+     inkscape:zoom="1.9222716"
+     inkscape:cx="475.83427"
+     inkscape:cy="236.10492"
+     inkscape:window-x="4791"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1195" />
+  <g
+     transform="matrix(3.7795275,0,0,3.7795275,-275.92195,-710.36518)"
+     id="g3655" />
+  <g
+     id="g2599"
+     transform="matrix(1.9876987,0,0,1.9876987,-88.490398,-764.98512)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path1756"
+       d="m 192.25116,457.83408 a 2.50025,2.50025 0 0 0 -1.94726,0.80664 l -6.82422,7.21289 -0.006,0.004 c -5.03488,4.91613 -11.11254,4.974 -16.38672,3.76953 -5.27609,-1.2049 -9.26562,-3.70898 -9.26562,-3.70898 a 2.50025,2.50025 0 0 0 -1.33594,-0.38672 H 92.628111 a 2.50025,2.50025 0 1 0 0,5 h 63.246099 c 0.9203,0.55519 4.6186,2.719 10.09961,3.9707 6.21097,1.4184 14.50208,1.27982 21.00195,-5.07226 a 2.50025,2.50025 0 0 0 0.0684,-0.0703 l 6.89258,-7.2832 a 2.50025,2.50025 0 0 0 -1.68555,-4.24219 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f05a00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1756-9"
+       d="m 150.97784,470.93864 c -5.25651,-0.26175 -11.13877,1.00742 -16.01367,5.77148 a 2.50025,2.50025 0 0 0 -0.0684,0.0703 l -6.89258,7.28125 a 2.50025,2.50025 0 1 0 3.63086,3.4375 l 6.82422,-7.21289 c 0.002,-0.002 0.004,-0.002 0.006,-0.004 5.03487,-4.91614 11.11448,-4.974 16.38867,-3.76953 5.27609,1.2049 9.26367,3.70703 9.26367,3.70703 a 2.50025,2.50025 0 0 0 1.33789,0.38867 h 63.85547 a 2.50025,2.50025 0 1 0 0,-5 h -63.24414 c -0.91992,-0.55498 -4.61824,-2.71892 -10.09961,-3.9707 -1.55274,-0.3546 -3.23611,-0.61197 -4.98828,-0.69922 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f05a00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.80317688px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.98769855"
+     x="109.09209"
+     y="255.63666"
+     id="text1193"><tspan
+       sodipodi:role="line"
+       x="109.09209"
+       y="255.63666"
+       style="stroke-width:1.98769855"
+       id="tspan2575">Good Connection</tspan></text>
+  <g
+     id="g2603"
+     transform="matrix(1.9934308,0,0,1.9934308,-90.348815,-764.18407)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path1756-92"
+       d="m 426.86054,462.08408 a 2.50025,2.50025 0 0 0 -1.94727,0.80469 l -6.82422,7.21289 -0.006,0.004 c -5.03487,4.91613 -11.11253,4.97399 -16.38671,3.76953 -5.2761,-1.2049 -9.26563,-3.70703 -9.26563,-3.70703 a 2.50025,2.50025 0 0 0 -1.33594,-0.38867 h -63.85742 a 2.50025,2.50025 0 1 0 0,5 h 63.24609 c 0.9203,0.55519 4.61861,2.719 10.09961,3.9707 6.21098,1.4184 14.50013,1.27981 21,-5.07227 a 2.50025,2.50025 0 0 0 0.0684,-0.0684 l 6.89258,-7.2832 a 2.50025,2.50025 0 0 0 -1.68359,-4.24219 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f05a00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1756-9-7"
+       d="m 440.1164,466.66025 c -5.25651,-0.26175 -11.13877,1.00743 -16.01367,5.77149 a 2.50025,2.50025 0 0 0 -0.0684,0.0684 l -6.89258,7.2832 a 2.50025,2.50025 0 1 0 3.63086,3.4375 l 6.83593,-7.22266 c 5.03381,-4.91082 11.10859,-4.96769 16.38086,-3.76367 5.2761,1.2049 9.26563,3.70703 9.26563,3.70703 a 2.50025,2.50025 0 0 0 1.33594,0.38672 h 63.85742 a 2.50025,2.50025 0 1 0 0,-5 H 455.2023 c -0.92217,-0.55624 -4.6204,-2.71746 -10.09961,-3.96875 -1.55275,-0.3546 -3.23416,-0.61196 -4.98633,-0.69922 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f05a00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.89489174px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.99343073"
+     x="639.89917"
+     y="255.63577"
+     id="text1193-9"><tspan
+       sodipodi:role="line"
+       x="639.89917"
+       y="255.63577"
+       style="stroke-width:1.99343073"
+       id="tspan2575-1">Bad Connection</tspan></text>
+</svg>

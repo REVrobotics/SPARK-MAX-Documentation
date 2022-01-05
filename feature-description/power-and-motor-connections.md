@@ -1,10 +1,10 @@
 # Power and Motor Connections
 
-SPARK MAX is designed to drive 12V brushed and brushless DC motors at currents up to 60A continuously. Power and motor connections are made through the two sets of wires built into the SPARK MAX. The wires are 12AWG ultra-flexible silicone-coated wire. Each wire runs approximately 15cm from the end faces of the controller. Be sure to take care when cutting and stripping the wires as not to cut them too short. The figure below shows these connections in detail.
+SPARK MAX is designed to drive 12V brushed and brushless DC motors at currents up to 60A continuously. Power and motor connections are made through the two sets of wires built into the SPARK MAX. The wires are 12AWG ultra-flexible silicone-coated wire. Each wire runs approximately 15cm from the end faces of the controller. Be sure to take care when cutting and stripping the wires as not to cut them too short. The figure below shows these connections in detail.&#x20;
 
 
 
-![SPARK MAX Motor Controller Power Connections](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/powermotorconnections.png)
+![SPARK MAX Motor Controller Power Connections](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/powermotorconnections.png)
 
 {% hint style="warning" %}
 As with any electrical component, make all connections with the power turned off. Connecting the SPARK MAX to a powered system may result in unexpected behavior an may pose a safety risk.
@@ -16,7 +16,7 @@ Motor output wires are labeled as A, B, and C with red, black, and white wires. 
 
 #### Motor Connections
 
-![](../.gitbook/assets/motor-ouput-graphic.svg)
+![](<../.gitbook/assets/Motor Ouput Graphic.svg>)
 
 SPARK MAX cannot detect which motor type it is connected to. Be sure to configure the SPARK MAX to run the type of motor you have connected. See the [Motor Type - Brushed/Brushless Mode](../operating-modes/motor-type-brushed-brushless-mode.md) section for more details on configuring the appropriate motor type.
 
@@ -37,4 +37,3 @@ When using high current motors, it is recommended to use a power source that is 
 {% hint style="danger" %}
 DO NOT exceed the maximum current ratings of 60A or 100A for 2 seconds. Doing so will cause permanent damage to the SPARK MAX and will void the warranty.
 {% endhint %}
-

@@ -1,6 +1,6 @@
 # Alternate Encoder Mode
 
-The SPARK MAX can be configured to run in Alternate Encoder Mode, which reconfigures the Data Port on the top of the controller to accept an alternative quadrature encoder, separate from the default encoder inputs shared between the front Encoder Port and the default quadrature encoder Data Port pins. Analog input is not affected by Alternate Encoder Mode.&#x20;
+The SPARK MAX can be configured to run in Alternate Encoder Mode, which reconfigures the Data Port on the top of the controller to accept an alternative quadrature encoder, separate from the default encoder inputs shared between the front Encoder Port and the default quadrature encoder Data Port pins. Analog input is not affected by Alternate Encoder Mode. &#x20;
 
 {% hint style="info" %}
 **This feature is designed for use in low-RPM mechanisms such as drivetrains, arms, and other manipulators.** For high RPM applications it is recommended to use the built-in motor sensor for brushless motors or the default encoder inputs for brushed motors.&#x20;
@@ -84,7 +84,7 @@ Below you will find the steps required to set up and use the Alternate Encoder M
 
 Using the SPARK MAX Client, navigate to the Advanced Tab and scroll to the Alternate Encoder parameter section. Enable the alternate encoder by setting the _kDataPortConfig_ parameter to '1'. You can also set the other Alternate Encoder parameters at this time.
 
-![](<../.gitbook/assets/ae-mode (1).svg>)
+![](<../.gitbook/assets/AE mode (1).svg>)
 
 ### **Configuring Using the SPARK MAX APIs**
 
