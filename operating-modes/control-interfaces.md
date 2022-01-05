@@ -101,7 +101,7 @@ The user can change this rate to 10ms by calling:
 
 | _Pseudocode_ |
 | :--- |
-| `setPeriodicFrameRate(PeriodicFrame.kStatus2, 10);` |
+| `setPeriodicFramePeriod(PeriodicFrame.kStatus2, 10);` |
 
 #### **High CAN Utilization**
 
@@ -111,7 +111,7 @@ The user can set the telemetry frame rates low, and set the Periodic Status 0 fr
 
 | _Pseudocode_ |
 | :--- |
-| `leader.setPeriodicFrameRate(PeriodicFrame.kStatus1, 500); leader.setPeriodicFrameRate(PeriodicFrame.kStatus2, 500); follower.setPeriodicFrameRate(PeriodicFrame.kStatus0, 100); follower.setPeriodicFrameRate(PeriodicFrame.kStatus1, 500); follower.setPeriodicFrameRate(PeriodicFrame.kStatus2, 500);` |
+| `leader.setPeriodicFramePeriod(PeriodicFrame.kStatus1, 500); leader.setPeriodicFramePeriod(PeriodicFrame.kStatus2, 500); follower.setPeriodicFramePeriod(PeriodicFrame.kStatus0, 100); follower.setPeriodicFramePeriod(PeriodicFrame.kStatus1, 500); follower.setPeriodicFramePeriod(PeriodicFrame.kStatus2, 500);` |
 
 #### **Faster Follower Bandwidth**
 
@@ -121,7 +121,7 @@ The Periodic Status 0 frame can be increased to achieve this.
 
 | _Pseudocode_ |
 | :--- |
-| `leader.setPeriodicFrameRate(PeriodicFrame.kStatus0, 5);` |
+| `leader.setPeriodicFramePeriod(PeriodicFrame.kStatus0, 5);` |
 
 ## USB Interface
 
