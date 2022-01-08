@@ -33,7 +33,7 @@
 
 ## Software Resources
 
-* [SPARK MAX Firmware Change Log](software-resources/spark-max-firmware-change-log.md)
+* [SPARK MAX Firmware Changelog](software-resources/spark-max-firmware-change-log.md)
 * [REVLib Information](software-resources/spark-max-api-information/README.md)
   * [JAVA API Documentation](https://codedocs.revrobotics.com/java/)
   * [C++ API Documentation](https://codedocs.revrobotics.com/cpp/)
