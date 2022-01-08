@@ -116,7 +116,7 @@ You can use the online method to install REVLib C++/Java if your development mac
 
 For a list and description of all classes:
 
-* [Online REVLib Java Documentation](https://codedocs.revrobotics.com/java/)
+* [Online REVLib Java Documentation](https://codedocs.revrobotics.com/java/com/revrobotics/package-summary.html)
 
 [//]: # (* [Offline SPARK MAX Java Documentation &#40;pdf&#41;]&#40;https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Java-API-Offline.pdf&#41;)
 
@@ -124,7 +124,7 @@ For a list and description of all classes:
 
 For a list and description of all classes:
 
-* [Online REVLib C++ Documentation](https://codedocs.revrobotics.com/cpp/)
+* [Online REVLib C++ Documentation](https://codedocs.revrobotics.com/cpp/namespacerev.html)
 
 [//]: # (* [Offline SPARK MAX C++ Documentation &#40;pdf&#41;]&#40;https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Cpp-API-Offline.pdf&#41;)
 
