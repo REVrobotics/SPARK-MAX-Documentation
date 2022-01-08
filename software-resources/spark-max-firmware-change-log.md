@@ -51,7 +51,7 @@ This firmware **will not work with SPARK MAX beta hardware units** distributed b
   * Calls can be automatically registered and tracked, with any errors displayed to the DriverStation or users can use the _GetLastError()_ after calls to determine if an error has been thrown. This is done by changing the error timeout through _SetCANTimeout()_, where a timeout of 0 means that the calls are non-blocking, and errors are checked in a separate thread and sent through to the driver station.
 * Other minor improvements and bug fixes.
 
-## Version 1.3.0
+#### Version 1.3.0
 
   * Ability to configure the feedback device for the PIDController.
   * Addition of CANAnalog which will function as a possible feedback device.
@@ -63,7 +63,7 @@ This firmware **will not work with SPARK MAX beta hardware units** distributed b
   * Adds status 3 periodic frame for analog sensor.
   * Other minor improvements and bug fixes.
 
-# Version 1.2.1
+#### Version 1.2.1
 
 * Adds initial CAN bootloading functionality.
   * Requires continuous power during update and requires USB recovery if the update fails after erasing the flash (i.e. power is lost during update).
