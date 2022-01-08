@@ -29,7 +29,7 @@ you install REVLib.
 4. Select **Manage Current Libraries**.
 5. Check the `REVRobotics` and/or `REVColorSensorV3` items (whichever ones are present)
 6. Click the `OK` button to uninstall them.
-7. Install REVLib for [C++](./#c++) or [Java](./#java).
+7. Install REVLib for [C++ and Java](./#c++-and-java).
 
 #### Breaking changes in REVLib
 
