@@ -35,8 +35,8 @@
 
 * [SPARK MAX Firmware Changelog](software-resources/spark-max-firmware-change-log.md)
 * [REVLib Information](software-resources/spark-max-api-information/README.md)
-  * [JAVA API Documentation](https://codedocs.revrobotics.com/java/)
-  * [C++ API Documentation](https://codedocs.revrobotics.com/cpp/)
+  * [JAVA API Documentation](https://codedocs.revrobotics.com/java/com/revrobotics/package-summary.html)
+  * [C++ API Documentation](https://codedocs.revrobotics.com/cpp/namespacerev.html)
 * [SPARK MAX Code Examples](software-resources/spark-max-code-examples.md)
 * [Configuration Parameters](software-resources/configuration-parameters.md)
 * [Migrating from CTRE Phoenix to SPARK MAX](software-resources/migrating-ctre-to-rev.md)
