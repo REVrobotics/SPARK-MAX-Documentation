@@ -34,14 +34,16 @@
 ## Software Resources
 
 * [SPARK MAX Firmware Change Log](software-resources/spark-max-firmware-change-log.md)
-* [SPARK MAX API Information](software-resources/spark-max-api-information/README.md)
-  * [JAVA API Documentation](https://www.revrobotics.com/content/sw/max/sw-docs/java/index.html)
-  * [JAVA API Documentation (PDF)](https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Java-API-Offline.pdf)
-  * [C++ API Documentation](https://www.revrobotics.com/content/sw/max/sw-docs/cpp/index.html)
-  * [C++ API Documentation (PDF)](https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Cpp-API-Offline.pdf)
+* [REVLib Information](software-resources/spark-max-api-information/README.md)
+  * [JAVA API Documentation](https://codedocs.revrobotics.com/java/)
+  * [C++ API Documentation](https://codedocs.revrobotics.com/cpp/)
 * [SPARK MAX Code Examples](software-resources/spark-max-code-examples.md)
 * [Configuration Parameters](software-resources/configuration-parameters.md)
 * [Migrating from CTRE Phoenix to SPARK MAX](software-resources/migrating-ctre-to-rev.md)
+
+[//]: # (* [C++ API Documentation &#40;PDF&#41;]&#40;https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Cpp-API-Offline.pdf&#41;)
+[//]: # (* [JAVA API Documentation &#40;PDF&#41;]&#40;https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Java-API-Offline.pdf&#41;)
+
 
 ## Tips and Tricks
 
