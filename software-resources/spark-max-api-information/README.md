@@ -5,8 +5,8 @@ Below you will find information on how to download and install REVLib for LabVIE
 | **Language**            | Current REVLib Version |             Documentation              |
 |-------------------------|:----------------------:|:--------------------------------------:|
 | [LabVIEW](./#labview)   |        2022.0.0        |        Embedded (Press Ctrl-H)         |
-| [Java](./#c++-and-java) |        2022.1.0        | [Java Docs](./#java-api-documentation) |
-| [C++](./#c++-and-java)  |        2022.1.0        |  [C++ Docs](./#c++-api-documentation)  |
+| [Java](./#c++-and-java) |        2022.1.1        | [Java Docs](./#java-api-documentation) |
+| [C++](./#c++-and-java)  |        2022.1.1        |  [C++ Docs](./#c++-api-documentation)  |
 
 ### Migrating from the SPARK MAX API and/or Color Sensor V3 API
 
@@ -91,9 +91,9 @@ require any code changes.
 
 ### C++ and Java
 
-|                                                                     REVLib C++/Java - Version 2022.1.0                                                                            |
+|                                                                        REVLib C++/Java - Version 2022.1.1                                                                         |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [![](<../../.gitbook/assets/Download Latest JAVA API.svg>) ](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.1.0/REVLib-offline-v2022.1.0.zip) |
+| [![](<../../.gitbook/assets/Download Latest JAVA API.svg>) ](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.1.1/REVLib-offline-v2022.1.1.zip) |
 
 #### Online Installation
 
@@ -131,7 +131,14 @@ For a list and description of all classes:
 
 ## Changelog
 
-### Version 2022.0.1
+### Version 2022.1.1
+
+#### Fixes
+
+* Adds Linux aarch64 (64-bit ARM) build
+* C++: Adds missing GetAlternateEncoder(int countsPerRev) method
+
+### Version 2022.1.0
 
 #### Enhancements
 
