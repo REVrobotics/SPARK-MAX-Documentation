@@ -80,11 +80,11 @@ Another option is the [SPARK MAX Data Port Breakout Board](http://www.revrobotic
 
 Below you will find the steps required to set up and use the Alternate Encoder Mode on the SPARK MAX, starting with configuration through either the SPARK MAX Client or the SPARK MAX APIs.
 
-### **Configuration Using the SPARK MAX Client**
+### **Configuration Using the REV Hardware Client**
 
-Using the SPARK MAX Client, navigate to the Advanced Tab and scroll to the Alternate Encoder parameter section. Enable the alternate encoder by setting the _kDataPortConfig_ parameter to '1'. You can also set the other Alternate Encoder parameters at this time.
+Using the REV Hardware Client, select your SPARK MAX, then navigate to the Advanced Tab and scroll to the Alternate Encoder parameter section. Enable the alternate encoder by setting the _kDataPortConfig_ parameter to 'Alternate Encoder' via the drop down menu. You can also set the other Alternate Encoder parameters at this time.
 
-![](<../.gitbook/assets/AE mode (1).svg>)
+![](<../.gitbook/assets/alt encoder mode.png>)
 
 ### **Configuring Using the SPARK MAX APIs**
 
