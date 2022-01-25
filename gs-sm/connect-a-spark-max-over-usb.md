@@ -15,7 +15,7 @@ Plug in the USB cable and start the REV Hardware Client. Select the SPARK MAX fr
 ![](<../.gitbook/assets/SPARK MAX - Single Device.svg>)
 
 {% hint style="info" %}
-If you can not see the SPARK MAX, make sure that the SPARK MAX is not being used by another application, such as the REV SPARK MAX Client. Then unplug the SPARK MAX from the computer and plug it back in.
+If you can not see the SPARK MAX, make sure that the SPARK MAX is not being used by another application. Then unplug the SPARK MAX from the computer and plug it back in.
 {% endhint %}
 
 ## Basic Setup and Configuration
@@ -57,7 +57,7 @@ Before running any motor, make sure all components are in a safe state, that the
 {% endhint %}
 
 {% hint style="info" %}
-Keep the CAN cable disconnected throughout the test. For safety reasons, the SPARK MAX Client will not run the motor if the roboRIO is connected. If the roboRIO was connected, power cycle the SPARK MAX.
+Keep the CAN cable disconnected throughout the test. For safety reasons, the REV Hardware Client will not run the motor if the roboRIO is connected. If the roboRIO was connected, power cycle the SPARK MAX.
 {% endhint %}
 
 To spin the motor, go to the Run tab, keep all of the default settings and press _Run_ _Motor._ The _setpoint_ is 0 by default, meaning that the motor is being commanded to **idle** (0% power). When you press _Run_ you should see the LED go from slow blinking to solid, indicating that the motor is idling.

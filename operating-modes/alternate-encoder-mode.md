@@ -78,7 +78,7 @@ Another option is the [SPARK MAX Data Port Breakout Board](http://www.revrobotic
 
 ## Configuring and Using the Alternate Encoder Mode
 
-Below you will find the steps required to set up and use the Alternate Encoder Mode on the SPARK MAX, starting with configuration through either the SPARK MAX Client or the SPARK MAX APIs.
+Below you will find the steps required to set up and use the Alternate Encoder Mode on the SPARK MAX, starting with configuration through either the REV Hardware Client or the SPARK MAX APIs.
 
 ### **Configuration Using the REV Hardware Client**
 
