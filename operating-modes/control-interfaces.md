@@ -56,8 +56,23 @@ The SPARK MAX sends data periodically back to the roboRIO. Frequently accessed d
 #### Periodic Status 2 - Default Rate: 20ms
 
 | **Available Data** | **Description**                                                               |
-| ------------------ | ----------------------------------------------------------------------------- |
-| Motor Position     | 32-bit IEEE floating-point representation of the motor position in rotations. |
+| -------------- | ----------------------------------------------------------------------------- |
+| Motor Position | 32-bit IEEE floating-point representation of the motor position in rotations. |
+
+#### Periodic Status 3 - Default Rate: 50ms
+
+| **Available Data**     | **Description**                                                                                                                                                    |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Analog Sensor Voltage  | 10-bit fixed-point value that is converted to a floating point voltage value (in Volts) by the roboRIO SDK. This is the voltage being output by the analog sensor. |
+| Analog Sensor Velocity | 22-bit fixed-point value that is converted to a floating point voltage value (in RPM) by the roboRIO SDK. This is the velocity reported by the analog sensor.      |
+| Analog Sensor Position | 32-bit IEEE floating-point representation of the velocity in RPM reported by the analog sensor.                                                                    |
+
+#### Periodic Status 4 - Default Rate: 20ms
+
+| **Available Data**         | **Description**                                                                                  |
+|----------------------------|--------------------------------------------------------------------------------------------------|
+| Alternate Encoder Velocity | 32-bit IEEE floating-point representation of the velocity in RPM of the alternate encoder.       |
+| Alternate Encoder Position | 32-bit IEEE floating-point representation of the position in rotations of the alternate encoder. |
 
 ### **Use-case Examples**
 
