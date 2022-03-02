@@ -42,6 +42,25 @@ If you are running brushed motor, set the motor type to **Brushed**, sensor type
 
 ![](<../.gitbook/assets/SPARK MAX - SM - Brushed Motor No Sensor.svg>)
 
+### Set the Smart Current Limit
+
+The SPARK MAX Motor Controller includes a Smart Current Limit feature that can adjust the applied output to the motor to maintain a constant phase current.&#x20;
+
+{% hint style="info" %}
+To help decide what to set your Smart Current Limit to you can use data from our locked-rotor testing for the [NEO (REV-21-1650) ](https://www.revrobotics.com/neo-brushless-motor-locked-rotor-testing/)and [NEO 550 (REV-21-1651)](https://www.revrobotics.com/neo-550-brushless-motor-locked-rotor-testing/)
+{% endhint %}
+
+| Motor Type                                                        | Suggested Current Limit Range |
+| ----------------------------------------------------------------- | ----------------------------- |
+| NEO ([REV-21-1650](https://www.revrobotics.com/rev-21-1650/))     | 40A - 60A                     |
+| NEO 550 ([REV-21-1651](https://www.revrobotics.com/rev-21-1651/)) | 20A - 40A                     |
+
+{% hint style="warning" %}
+Warning: setting current limits outside of the suggested ranges listed above may cause severe damage to components
+{% endhint %}
+
+![](../.gitbook/assets/smartcurrentlimit.png)
+
 ## Save the Settings
 
 For the SPARK MAX to remember its new configuration through a power-cycle, the settings must be saved. To do this, press the _Burn Flash_ button on the bottom of the page. It will take a few seconds to save, indicated by the loading symbol on the button.
