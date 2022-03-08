@@ -4,7 +4,7 @@ Below you will find information on how to download and install REVLib for LabVIE
 
 | **Language**            | Current REVLib Version |             Documentation              |
 |-------------------------|:----------------------:|:--------------------------------------:|
-| [LabVIEW](./#labview)   |        2022.0.0        |        Embedded (Press Ctrl-H)         |
+| [LabVIEW](./#labview)   |        2022.1.2        |        Embedded (Press Ctrl-H)         |
 | [Java](./#c++-and-java) |        2022.1.1        | [Java Docs](./#java-api-documentation) |
 | [C++](./#c++-and-java)  |        2022.1.1        |  [C++ Docs](./#c++-api-documentation)  |
 
@@ -75,9 +75,9 @@ require any code changes.
 
 ### LabVIEW
 
-|                                                                                 REVLib LabVIEW - Version 2022.0.0                                                                                  |
+|                                                                                 REVLib LabVIEW - Version 2022.1.2                                                                                  |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.0.0/REVLib-labVIEW-2022.0.0-0_windows_all.nipkg) |
+| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.1.2/REVLib-labVIEW-2022.1.2-0_windows_all.nipkg) |
 
 1. Download the latest REVLib LabVIEW package from the download link above.
 2. Make sure LabVIEW for FRC 2022 is installed and updated.
@@ -130,6 +130,21 @@ For a list and description of all classes:
 
 
 ## Changelog
+
+### Version 2022.1.2
+
+#### Breaking Changes
+
+* LabVIEW: The version of NI Package Manager bundled with the FRC LabVIEW offline installer will no longer work when installing the REVLib package. NIPM must be updated to the latest version or installed from the FRC LabVIEW online installer to be able to install this package of REVLib for LabVIEW
+
+#### Enhancements
+
+* LabVIEW: Adds `Spark MAX Set Inverted.vi` and `Spark MAX Get Inverted.vi`
+
+#### Known issues
+
+* SparkMaxPIDController.setIAccum() only works while the control mode is active
+* LabVIEW: VIs to get the SPARK MAX controller parameters do not work
 
 ### Version 2022.1.1
 
