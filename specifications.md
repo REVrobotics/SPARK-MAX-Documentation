@@ -1,6 +1,6 @@
 # SPARK MAX Specifications
 
-The following tables provide the operating and mechanical specifications for the SPARK MAX motor controller.
+The following tables provide the operating and mechanical specifications for the SPARK MAX motor controller.&#x20;
 
 {% hint style="danger" %}
 DO NOT exceed the maximum electrical specifications. Doing so will cause permanent damage to the SPARK MAX and will void the warranty.
@@ -8,8 +8,16 @@ DO NOT exceed the maximum electrical specifications. Doing so will cause permane
 
 ### Main Electrical Specifications
 
+| Parameter                               | Min | Typ | Max  | Units |
+| --------------------------------------- | --- | --- | ---- | ----- |
+| Operating Voltage Range                 | 5.5 | 12  | 24   | V     |
+| Absolute Maximum Supply Voltage         | -   | -   | 30   | V     |
+| Continuous Output Current               | -   | -   | 60\* | A     |
+| Maximum Output Current (2 second surge) | -   | -   | 100  | A     |
+| Output Frequency                        | -   | 20  | -    | kHz   |
+
 {% hint style="warning" %}
-Continuous operation at 60A may produce high temperatures on the heat sink. Caution should be taken when handling the SPARK MAX if it has been running at higher current level for an extended period of time.
+\*Continuous operation at 60A may produce high temperatures on the heat sink. Caution should be taken when handling the SPARK MAX if it has been running at higher current level for an extended period of time.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -17,6 +25,18 @@ If using a battery to power SPARK MAX, make sure the fully charged voltage is be
 {% endhint %}
 
 ### PWM Input Specifications
+
+| Parameter                    | Min | Typ  | Max  | Units |
+| ---------------------------- | --- | ---- | ---- | ----- |
+| Full-reverse Input Pulse †   | -   | 1000 | -    | μs    |
+| Neutral Input Pulse ††       | -   | 1500 | -    | μs    |
+| Full-forward Input Pulse ††† | -   | 2000 | -    | μs    |
+| Valid Input Pulse Range      | 500 | -    | 2500 | μs    |
+| Input Frequency              | 50  | -    | 200  | Hz    |
+| Input Timeout ‡              | -   | 50   | -    | ms    |
+| Default Input Deadband ‡‡    | -   | 5    | -    | %     |
+| Input High Level             | 0.5 | 0.7  | 0.9  | V     |
+| Input Voltage Max            | 12  | -    | -    | V     |
 
 |      |                                                                                                                                                                                                               |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
