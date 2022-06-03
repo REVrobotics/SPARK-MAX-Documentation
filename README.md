@@ -45,4 +45,4 @@ The following items are included with each SPARK MAX Motor Controller
 
 #### Special Thanks
 
-We appreciate the assistance from the community for feedback, contributing, and testing the SPARK MAX, especially [Team 195 The CyberKnights](https://team195.com).
+We appreciate the assistance from the community for feedback, contributing, and testing the SPARK MAX, especially [Team 195 The CyberKnights](https://team195.com/).

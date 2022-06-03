@@ -1,6 +1,6 @@
 # Control Interfaces
 
-The SPARK MAX can be controlled by three different interfaces, servo-style PWM, controller area network (CAN), and USB. The following sections describe the operation and protocols of these interfaces. For more details on the physical connections, see [Control Connections](../feature-description/control-connections.md). &#x20;
+The SPARK MAX can be controlled by three different interfaces, servo-style PWM, controller area network (CAN), and USB. The following sections describe the operation and protocols of these interfaces. For more details on the physical connections, see [Control Connections](../feature-description/control-connections.md).
 
 ## PWM Interface
 
@@ -10,7 +10,7 @@ The SPARK MAX responds to a factory default pulse range of 1000µs to 2000µs. T
 
 #### PWM Pulse Mapping
 
-![](<../.gitbook/assets/PWM Pulse Mapping (1).svg>)
+![](<../.gitbook/assets/pwm-pulse-mapping (1).svg>)
 
 {% hint style="warning" %}
 If a valid signal isn't received within a 60ms window, the SPARK MAX will disable the motor output and either brake or coast the motor depending on the configured Idle Mode. For details on the Idle Mode, see [Idle Mode - Brake/Coast Mode](idle-mode-brake-coast-mode.md).
@@ -27,7 +27,7 @@ The SPARK MAX can be connected to a robot CAN network. CAN is a bi-directional c
 | Device Type        | Manufacturer       | API Class          | API Index        | Device ID        |
 
 Each device on the CAN bus must be assigned a unique CAN ID number. Out of the box, SPARK MAX is assigned a device ID of 0. It is highly recommended to change all SPARK MAX CAN IDs from 0 to any unused ID from 1 to 62. CAN IDs can be changed by connecting the SPARK MAX to a Windows computer and using the [REV Hardware Client](../rev-hardware-client/getting-started-with-the-rev-hardware-client/). For details on other SPARK MAX configuration parameters, see [Configuration Parameters](../software-resources/configuration-parameters.md).[\
-](broken-reference)
+](broken-reference/)
 
 Additional information about the CAN accessible features and how to access them can be found in the [SPARK MAX API Information](../software-resources/spark-max-api-information/) section.
 
@@ -37,12 +37,12 @@ The SPARK MAX sends data periodically back to the roboRIO. Frequently accessed d
 
 #### Periodic Status 0 - Default Rate: 10ms
 
-| **Available Data**  | **Description**                                                                                                                                                                                                                                                                 |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Applied **** Output | The actual value sent to the motors from the motor controller. The frame stores this value as a 16-bit signed integer, and is converted to a floating point value between -1 and 1 by the roboRIO SDK. This value is also used by any follower controllers to set their output. |
-| Faults              | Each bit represents a different fault on the controller. These fault bits clear automatically when the fault goes away.                                                                                                                                                         |
-| Sticky Faults       | The same as the Faults field, however the bits do not reset until a power cycle or a 'Clear Faults' command is sent.                                                                                                                                                            |
-| Is Follower         | A single bit that is true if the controller is configured to follow another controller.                                                                                                                                                                                         |
+| **Available Data**      | **Description**                                                                                                                                                                                                                                                                 |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Applied \*\*\*\* Output | The actual value sent to the motors from the motor controller. The frame stores this value as a 16-bit signed integer, and is converted to a floating point value between -1 and 1 by the roboRIO SDK. This value is also used by any follower controllers to set their output. |
+| Faults                  | Each bit represents a different fault on the controller. These fault bits clear automatically when the fault goes away.                                                                                                                                                         |
+| Sticky Faults           | The same as the Faults field, however the bits do not reset until a power cycle or a 'Clear Faults' command is sent.                                                                                                                                                            |
+| Is Follower             | A single bit that is true if the controller is configured to follow another controller.                                                                                                                                                                                         |
 
 #### Periodic Status 1 - Default Rate: 20ms
 
@@ -56,13 +56,13 @@ The SPARK MAX sends data periodically back to the roboRIO. Frequently accessed d
 #### Periodic Status 2 - Default Rate: 20ms
 
 | **Available Data** | **Description**                                                               |
-| -------------- | ----------------------------------------------------------------------------- |
-| Motor Position | 32-bit IEEE floating-point representation of the motor position in rotations. |
+| ------------------ | ----------------------------------------------------------------------------- |
+| Motor Position     | 32-bit IEEE floating-point representation of the motor position in rotations. |
 
 #### Periodic Status 3 - Default Rate: 50ms
 
 | **Available Data**     | **Description**                                                                                                                                                    |
-|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Analog Sensor Voltage  | 10-bit fixed-point value that is converted to a floating point voltage value (in Volts) by the roboRIO SDK. This is the voltage being output by the analog sensor. |
 | Analog Sensor Velocity | 22-bit fixed-point value that is converted to a floating point voltage value (in RPM) by the roboRIO SDK. This is the velocity reported by the analog sensor.      |
 | Analog Sensor Position | 32-bit IEEE floating-point representation of the velocity in RPM reported by the analog sensor.                                                                    |
@@ -70,7 +70,7 @@ The SPARK MAX sends data periodically back to the roboRIO. Frequently accessed d
 #### Periodic Status 4 - Default Rate: 20ms
 
 | **Available Data**         | **Description**                                                                                  |
-|----------------------------|--------------------------------------------------------------------------------------------------|
+| -------------------------- | ------------------------------------------------------------------------------------------------ |
 | Alternate Encoder Velocity | 32-bit IEEE floating-point representation of the velocity in RPM of the alternate encoder.       |
 | Alternate Encoder Position | 32-bit IEEE floating-point representation of the position in rotations of the alternate encoder. |
 

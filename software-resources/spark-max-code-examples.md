@@ -43,6 +43,6 @@ At the links below you will find code examples in LabVIEW, Java, and C++ for com
 
 Even though some examples may only exist in a particular language, they can be a good place to start as the APIs are very similar between languages.
 
-|                                                                                                            |
-| :--------------------------------------------------------------------------------------------------------: |
-| [![](<../.gitbook/assets/Code Examples Image v2.svg>) ](https://github.com/REVrobotics/SPARK-MAX-Examples) |
+|                                                                                                                                             |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+| [<img src="../.gitbook/assets/Code Examples Image v2.svg" alt="" data-size="original"> ](https://github.com/REVrobotics/SPARK-MAX-Examples) |

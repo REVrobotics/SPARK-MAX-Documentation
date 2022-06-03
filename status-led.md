@@ -4,28 +4,28 @@ SPARK MAX will indicate important status information on its multi-colored STATUS
 
 ### Standard Operation
 
-| **Operating Mode** | Idle Mode | State         | Color/Pattern     | Graphic                                                                                                                                    |
-| ------------------ | --------- | ------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Brushed            | Brake     | No Signal     | Blue Blink        | ![brushed-no-signal-brake.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/brushed-no-signal-brake.gif)     |
-|                    |           | Valid Signal  | Blue Solid        | ![blue.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/blue.png)                                           |
-|                    |           |               |                   |                                                                                                                                            |
-|                    | Coast     | No Signal     | Yellow Blink      | ![brushed-no-signal-coast.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/brushed-no-signal-coast.gif)     |
-|                    |           | Valid Signal  | Yellow Solid      | ![yellow.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/yellow.png)                                       |
-|                    |           |               |                   |                                                                                                                                            |
-| Brushless          | Brake     | No Signal     | Cyan Blink        | ![brushless-no-signal-brake.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/brushless-no-signal-brake.gif) |
-|                    |           | Valid Signal  | Cyan Solid        | ![cyan.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/cyan.png)                                           |
-|                    |           |               |                   |                                                                                                                                            |
-|                    | Coast     | No Signal     | Magenta Blink     | ![brushless-no-signal-coast.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/brushless-no-signal-coast.gif) |
-|                    |           | Valid Signal  | Magenta Solid     | ![magenta.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/magenta.png)                                     |
-|                    |           |               |                   |                                                                                                                                            |
-| Partial Forward    |           |               | Green Blink       | ![forward-proportional.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/forward-proportional.gif)           |
-| Full Forward       |           |               | Green Solid       | ![green.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/green.png)                                         |
-|                    |           |               |                   |                                                                                                                                            |
-| Partial Reverse    |           |               | Red Blink         | ![reverse-proportional.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/reverse-proportional.gif)           |
-| Full Reverse       |           |               | Red Solid         | ![red.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/red.png)                                             |
-|                    |           |               |                   |                                                                                                                                            |
-| Forward Limit      |           |               | Green/White Blink | ![forward-limit-triggered.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/forward-limit-triggered.gif)     |
-| Reverse Limit      |           |               | Red/White Blink   | ![reverse-limit-triggered.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/reverse-limit-triggered.gif)     |
+| **Operating Mode** | Idle Mode | State         | Color/Pattern     | Graphic                                                                                                                                                                 |
+| ------------------ | --------- | ------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Brushed            | Brake     | No Signal     | Blue Blink        | <img src="https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/brushed-no-signal-brake.gif" alt="brushed-no-signal-brake.gif" data-size="original"> |
+|                    |           | Valid Signal  | Blue Solid        | ![blue.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/blue.png)                                                                        |
+|                    |           |               |                   |                                                                                                                                                                         |
+|                    | Coast     | No Signal     | Yellow Blink      | ![brushed-no-signal-coast.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/brushed-no-signal-coast.gif)                                  |
+|                    |           | Valid Signal  | Yellow Solid      | ![yellow.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/yellow.png)                                                                    |
+|                    |           |               |                   |                                                                                                                                                                         |
+| Brushless          | Brake     | No Signal     | Cyan Blink        | ![brushless-no-signal-brake.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/brushless-no-signal-brake.gif)                              |
+|                    |           | Valid Signal  | Cyan Solid        | ![cyan.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/cyan.png)                                                                        |
+|                    |           |               |                   |                                                                                                                                                                         |
+|                    | Coast     | No Signal     | Magenta Blink     | ![brushless-no-signal-coast.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/brushless-no-signal-coast.gif)                              |
+|                    |           | Valid Signal  | Magenta Solid     | ![magenta.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/magenta.png)                                                                  |
+|                    |           |               |                   |                                                                                                                                                                         |
+| Partial Forward    |           |               | Green Blink       | ![forward-proportional.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/forward-proportional.gif)                                        |
+| Full Forward       |           |               | Green Solid       | ![green.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/green.png)                                                                      |
+|                    |           |               |                   |                                                                                                                                                                         |
+| Partial Reverse    |           |               | Red Blink         | ![reverse-proportional.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/reverse-proportional.gif)                                        |
+| Full Reverse       |           |               | Red Solid         | ![red.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/red.png)                                                                          |
+|                    |           |               |                   |                                                                                                                                                                         |
+| Forward Limit      |           |               | Green/White Blink | ![forward-limit-triggered.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/forward-limit-triggered.gif)                                  |
+| Reverse Limit      |           |               | Red/White Blink   | ![reverse-limit-triggered.gif](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/reverse-limit-triggered.gif)                                  |
 
 ### &#x20;**Identification, Updating, and Recovery**
 
