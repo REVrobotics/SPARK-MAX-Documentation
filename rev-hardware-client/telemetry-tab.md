@@ -36,7 +36,11 @@ Select the arrow to show all configurable parameters within a specific group. Fo
 
 ![](<../.gitbook/assets/sm run multiple.png>)
 
-Run multiple SPARK MAX and motor pairs using various modes, including position, velocity, and duty cycle.
+Run multiple SPARK MAX and motor pairs over CAN using various modes, including position, velocity, and duty cycle.
+
+{% hint style="info" %}
+If you are only using multiple SPARK MAXs and a power source, you can terminate both ends of your CAN Bus with 120Ω resistors!
+{% endhint %}
 
 ## Editing the Y-Axis Scale
 
