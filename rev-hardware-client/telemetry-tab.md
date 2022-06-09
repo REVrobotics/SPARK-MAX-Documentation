@@ -13,7 +13,7 @@ Devices available in the REV Hardware Client are shown on the left side of the w
 ![](../.gitbook/assets/telemetrySM2.png)
 
 1. **Run Motor:** Choose setpoints to run a motor connected to a SPARK MAX using various modes, including position, velocity, and duty cycle.
-2. **Signals:** Select the different signals from the PDH you want to monitor here
+2. **Signals:** Select the different signals from the SPARK MAX you want to monitor here
 3. **Start & Restart Graph:** Start initiates recording of telemetry. Restart will erase the data and start again
 4. **Time Span:** Change the time span shown on the x-axis of the graph
 5. **Scales:** Different Signals will have different scales for the y-axis. You can change which are shown by clicking the arrows here
