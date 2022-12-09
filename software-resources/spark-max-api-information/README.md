@@ -2,24 +2,21 @@
 
 Below you will find information on how to download and install REVLib for LabVIEW, Java, and C++.
 
-| **Language**            | Current REVLib Version |             Documentation              |
-|-------------------------|:----------------------:|:--------------------------------------:|
-| [LabVIEW](./#labview)   |        2022.1.2        |        Embedded (Press Ctrl-H)         |
+| **Language**            | Current REVLib Version |              Documentation             |
+| ----------------------- | :--------------------: | :------------------------------------: |
+| [LabVIEW](./#labview)   |        2022.1.2        |         Embedded (Press Ctrl-H)        |
 | [Java](./#c++-and-java) |        2022.1.1        | [Java Docs](./#java-api-documentation) |
 | [C++](./#c++-and-java)  |        2022.1.1        |  [C++ Docs](./#c++-api-documentation)  |
 
 ### Migrating from the SPARK MAX API and/or Color Sensor V3 API
 
-Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been merged into a unified
-library called REVLib. You need to make sure that you have uninstalled those old libraries before
-you install REVLib.
+Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been merged into a unified library called REVLib. You need to make sure that you have uninstalled those old libraries before you install REVLib.
 
 #### LabVIEW migration
 
 1. Ensure that the old SPARK MAX API and/or Color Sensor V3 API packages are uninstalled.
 2. [Install the REVLib package](./#labview).
-3. Opening a project that used the old APIs should work fine. When it is loading, it may show that
-   there are some missing VIs, but eventually LabVIEW should find the new VIs automatically.
+3. Opening a project that used the old APIs should work fine. When it is loading, it may show that there are some missing VIs, but eventually LabVIEW should find the new VIs automatically.
 
 #### C++/Java migration
 
@@ -33,12 +30,11 @@ you install REVLib.
 
 #### Breaking changes in REVLib
 
-##### LabVIEW breaking changes
+**LabVIEW breaking changes**
 
-There have been no breaking changes in REVLib for LabVIEW users, so installing REVLib will not
-require any code changes.
+There have been no breaking changes in REVLib for LabVIEW users, so installing REVLib will not require any code changes.
 
-##### C++/Java breaking changes
+**C++/Java breaking changes**
 
 * C++/Java: `CANError` has been renamed to `REVLibError`.
 * Java: `ColorMatch.makeColor()` and the `ColorShim` class have been removed. Use the WPILib `Color` class instead.
@@ -49,8 +45,7 @@ require any code changes.
   * Replace `CANSparkMax.getAlternateEncoder()` with `CANSparkMax.getAlternateEncoder(int countsPerRev)`.
   * Remove all usages of `CANSparkMax.setMotorType()`. You can only set the motor type in the constructor now.
   * Replace `SparkMax` with `PWMSparkMax`, which is built into WPILib.
-* Java: `CANSparkMax.get()` now returns the velocity setpoint set by `set(double speed)` rather than
-  the actual velocity, in accordance with the WPILib `MotorController` API contract.
+* Java: `CANSparkMax.get()` now returns the velocity setpoint set by `set(double speed)` rather than the actual velocity, in accordance with the WPILib `MotorController` API contract.
 * C++/Java: `CANPIDController.getSmartMotionAccelStrategy()` now returns `SparkMaxPIDController.AccelStrategy`.
 * C++/Java: Trying to do the following things will now throw an exception:
   * Creating a `CANSparkMax` object for a device that already has one
@@ -59,13 +54,12 @@ require any code changes.
   * Java: Trying to use a `CANSparkMax` (or another object retrieved from it) after `close()` has been called
   * C++: Calling a `CANSparkMax.getX()` method more than once for a single device
 * C++/Java: Deprecated classes in favor of renamed versions
-  * C++ users will get `cannot declare field to be of abstract type` errors until they replace their object declarations with
-    ones for the new classes. Java users will be able to continue to use the old classes through the 2022 season.
+  * C++ users will get `cannot declare field to be of abstract type` errors until they replace their object declarations with ones for the new classes. Java users will be able to continue to use the old classes through the 2022 season.
   * `AlternateEncoderType` is replaced by `SparkMaxAlternateEncoder.Type`.
   * `CANAnalog` is replaced by `SparkMaxAnalogSensor`.
   * `CANDigitalInput` is replaced by `SparkMaxLimitSwitch`.
   * Java: `CANEncoder` is replaced by `RelativeEncoder`.
-  * C++: `CANEncoder is replaced by `SparkMaxRelativeEncoder` and `SparkMaxAlternateEncoder`.
+  * C++: `CANEncoder is replaced by` SparkMaxRelativeEncoder`and`SparkMaxAlternateEncoder\`.
   * `CANPIDController` is replaced by `SparkMaxPIDController`.
   * `CANSensor` is replaced by `MotorFeedbackSensor`.
   * `ControlType` is replaced by `CANSparkMax.ControlType`.
@@ -75,25 +69,29 @@ require any code changes.
 
 ### LabVIEW
 
-|                                                                                 REVLib LabVIEW - Version 2022.1.2                                                                                  |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.1.2/REVLib-labVIEW-2022.1.2-0_windows_all.nipkg) |
+|                                                                                   REVLib LabVIEW - Version 2022.1.2                                                                                  |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.1.2/REVLib-labVIEW-2022.1.2-0\_windows\_all.nipkg) |
 
 1. Download the latest REVLib LabVIEW package from the download link above.
 2. Make sure LabVIEW for FRC 2022 is installed and updated.
 3. Open the REVLib LabVIEW Package. The NI Package Manager should automatically open.
 4.  Click **Next**:
 
-    ![nipackagemanager.png](https://cdn8.bigcommerce.com/s-t3eo8vwp22/product\_images/uploaded\_images/nipackagemanager.png)
+
+
+    <figure><img src="https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/nipackagemanager.png" alt=""><figcaption></figcaption></figure>
 5.  Once the installation is complete, you will be able to access the REVLib VIs at **LabVIEW Functions Pallet -> WPI Robotics Library -> Third Party -> REV Robotics**.
 
-    ![](<../.gitbook/assets/REVLibPalette.png>)
+
+
+    <figure><img src="../../.gitbook/assets/labview5.png" alt=""><figcaption></figcaption></figure>
 
 ### C++ and Java
 
-|                                                                        REVLib C++/Java - Version 2022.1.1                                                                         |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [![](<../../.gitbook/assets/Download Latest JAVA API.svg>) ](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.1.1/REVLib-offline-v2022.1.1.zip) |
+|                                                                        REVLib C++/Java - Version 2022.1.1                                                                        |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [![](<../../.gitbook/assets/Download Latest JAVA API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.1.1/REVLib-offline-v2022.1.1.zip) |
 
 #### Online Installation
 
@@ -103,14 +101,14 @@ You can use the online method to install REVLib C++/Java if your development mac
 2. Click on the WPI icon in the corner to open the WPI Command Pallet.
 3. Select **Manage Vendor Libraries**.
 4. Select **Install new library (online)**.
-5. Enter the following installation URL and press ENTER:
+5.  Enter the following installation URL and press ENTER:
 
     [`https://software-metadata.revrobotics.com/REVLib.json`](https://software-metadata.revrobotics.com/REVLib.json)
 
 #### Offline Installation
 
 1. Download and unzip the latest REVLib into the _C:\Users\Public\wpilib\2022_ directory on Windows and _\~/wpilib/2022_ directory on Unix-like systems.
-2. Follow the [adding an offline-installed library](https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/3rd-party-libraries.html) instructions from WPILib.
+2. Follow the WPILib instructions for [Adding Offline Libraries](https://docs.wpilib.org/en/latest/docs/software/vscode-overview/3rd-party-libraries.html#adding-offline-libraries).
 
 ## Java API Documentation
 
@@ -118,16 +116,11 @@ For a list and description of all classes:
 
 * [Online REVLib Java Documentation](https://codedocs.revrobotics.com/java/com/revrobotics/package-summary.html)
 
-[//]: # (* [Offline SPARK MAX Java Documentation &#40;pdf&#41;]&#40;https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Java-API-Offline.pdf&#41;)
-
 ## C++ API Documentation
 
 For a list and description of all classes:
 
 * [Online REVLib C++ Documentation](https://codedocs.revrobotics.com/cpp/namespacerev.html)
-
-[//]: # (* [Offline SPARK MAX C++ Documentation &#40;pdf&#41;]&#40;https://www.revrobotics.com/content/sw/max/sw-docs/SPARK-MAX-Cpp-API-Offline.pdf&#41;)
-
 
 ## Changelog
 
