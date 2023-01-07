@@ -2,13 +2,23 @@
 
 It is recommended to keep your SPARK MAX up-to-date with the latest firmware. The REV Hardware Client application will automatically download the latest firmware, but you can also download the firmware manually below:&#x20;
 
-|                                                    Latest Firmware - Version 1.5.2                                                    |
+|                                                    Latest Firmware - Version 1.6.1                                                    |
 | :-----------------------------------------------------------------------------------------------------------------------------------: |
-| [![](<../.gitbook/assets/Download Latest Firmware.svg>)](https://www.revrobotics.com/content/sw/max/firmware/SPARK-MAX-FW-v1.5.2.dfu) |
+| [![](<../.gitbook/assets/Download Latest Firmware.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/sparkmax-1.6.1/SPARK-MAX-FW-v1.6.1.dfu) |
 
 {% hint style="warning" %}
 This firmware **will not work with SPARK MAX beta hardware units** distributed by REV to the SPARK MAX Beta testers. It is only compatible with units received after 12/20/2018.
 {% endhint %}
+
+#### Version 1.6.1
+* Fixes duty cycle offset to match the inverted setting
+* Fixes parameters being NaN after updating to 1.6.0
+* Fixes burn flash command response
+
+#### Version 1.6.0
+* Adds new parameters for configuring hall sensor velocity measurement
+* Adds support for duty cycle absolute encoders
+* Adds new parameters to enable and configure position PID rollover
 
 #### Version 1.5.2
 
