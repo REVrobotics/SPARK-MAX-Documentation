@@ -28,43 +28,6 @@ Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been mer
 6. Click the `OK` button to uninstall them.
 7. Install REVLib for [C++ and Java](./#c++-and-java).
 
-#### Breaking changes in REVLib
-
-**LabVIEW breaking changes**
-
-There have been no breaking changes in REVLib for LabVIEW users, so installing REVLib will not require any code changes.
-
-**C++/Java breaking changes**
-
-* C++/Java: `CANError` has been renamed to `REVLibError`.
-* Java: `ColorMatch.makeColor()` and the `ColorShim` class have been removed. Use the WPILib `Color` class instead.
-* C++/Java: Deleted deprecated constructors, methods, and types
-  * Replace deprecated constructors with `CANSparkMax.getX()` functions.
-  * Replace `CANEncoder.getCPR()` with `getCountsPerRevolution()`.
-  * Remove all usages of `CANDigitalInput.LimitSwitch`.
-  * Replace `CANSparkMax.getAlternateEncoder()` with `CANSparkMax.getAlternateEncoder(int countsPerRev)`.
-  * Remove all usages of `CANSparkMax.setMotorType()`. You can only set the motor type in the constructor now.
-  * Replace `SparkMax` with `PWMSparkMax`, which is built into WPILib.
-* Java: `CANSparkMax.get()` now returns the velocity setpoint set by `set(double speed)` rather than the actual velocity, in accordance with the WPILib `MotorController` API contract.
-* C++/Java: `CANPIDController.getSmartMotionAccelStrategy()` now returns `SparkMaxPIDController.AccelStrategy`.
-* C++/Java: Trying to do the following things will now throw an exception:
-  * Creating a `CANSparkMax` object for a device that already has one
-  * Specifying an incorrect `countsPerRev` value for a NEO hall sensor
-  * Java: Calling a `CANSparkMax.getX()` method using different settings than were used previously in the program
-  * Java: Trying to use a `CANSparkMax` (or another object retrieved from it) after `close()` has been called
-  * C++: Calling a `CANSparkMax.getX()` method more than once for a single device
-* C++/Java: Deprecated classes in favor of renamed versions
-  * C++ users will get `cannot declare field to be of abstract type` errors until they replace their object declarations with ones for the new classes. Java users will be able to continue to use the old classes through the 2022 season.
-  * `AlternateEncoderType` is replaced by `SparkMaxAlternateEncoder.Type`.
-  * `CANAnalog` is replaced by `SparkMaxAnalogSensor`.
-  * `CANDigitalInput` is replaced by `SparkMaxLimitSwitch`.
-  * Java: `CANEncoder` is replaced by `RelativeEncoder`.
-  * C++: `CANEncoder is replaced by` SparkMaxRelativeEncoder`and`SparkMaxAlternateEncoder\`.
-  * `CANPIDController` is replaced by `SparkMaxPIDController`.
-  * `CANSensor` is replaced by `MotorFeedbackSensor`.
-  * `ControlType` is replaced by `CANSparkMax.ControlType`.
-  * `EncoderType` is replaced by `SparkMaxRelativeEncoder.Type`.
-
 ## Downloads and Installation Instructions
 
 ### LabVIEW
@@ -168,6 +131,37 @@ For a list and description of all classes:
 * SparkMaxPIDController.setIAccum() only works while the control mode is active
 
 ### Version 2022.0.0
+
+#### Breaking changes
+
+* C++/Java: `CANError` has been renamed to `REVLibError`.
+* Java: `ColorMatch.makeColor()` and the `ColorShim` class have been removed. Use the WPILib `Color` class instead.
+* C++/Java: Deleted deprecated constructors, methods, and types
+  * Replace deprecated constructors with `CANSparkMax.getX()` functions.
+  * Replace `CANEncoder.getCPR()` with `getCountsPerRevolution()`.
+  * Remove all usages of `CANDigitalInput.LimitSwitch`.
+  * Replace `CANSparkMax.getAlternateEncoder()` with `CANSparkMax.getAlternateEncoder(int countsPerRev)`.
+  * Remove all usages of `CANSparkMax.setMotorType()`. You can only set the motor type in the constructor now.
+  * Replace `SparkMax` with `PWMSparkMax`, which is built into WPILib.
+* Java: `CANSparkMax.get()` now returns the velocity setpoint set by `set(double speed)` rather than the actual velocity, in accordance with the WPILib `MotorController` API contract.
+* C++/Java: `CANPIDController.getSmartMotionAccelStrategy()` now returns `SparkMaxPIDController.AccelStrategy`.
+* C++/Java: Trying to do the following things will now throw an exception:
+  * Creating a `CANSparkMax` object for a device that already has one
+  * Specifying an incorrect `countsPerRev` value for a NEO hall sensor
+  * Java: Calling a `CANSparkMax.getX()` method using different settings than were used previously in the program
+  * Java: Trying to use a `CANSparkMax` (or another object retrieved from it) after `close()` has been called
+  * C++: Calling a `CANSparkMax.getX()` method more than once for a single device
+* C++/Java: Deprecated classes in favor of renamed versions
+  * C++ users will get `cannot declare field to be of abstract type` errors until they replace their object declarations with ones for the new classes. Java users will be able to continue to use the old classes through the 2022 season.
+  * `AlternateEncoderType` is replaced by `SparkMaxAlternateEncoder.Type`.
+  * `CANAnalog` is replaced by `SparkMaxAnalogSensor`.
+  * `CANDigitalInput` is replaced by `SparkMaxLimitSwitch`.
+  * Java: `CANEncoder` is replaced by `RelativeEncoder`.
+  * C++: `CANEncoder is replaced by` SparkMaxRelativeEncoder`and`SparkMaxAlternateEncoder\`.
+  * `CANPIDController` is replaced by `SparkMaxPIDController`.
+  * `CANSensor` is replaced by `MotorFeedbackSensor`.
+  * `ControlType` is replaced by `CANSparkMax.ControlType`.
+  * `EncoderType` is replaced by `SparkMaxRelativeEncoder.Type`.
 
 #### Enhancements:
 
