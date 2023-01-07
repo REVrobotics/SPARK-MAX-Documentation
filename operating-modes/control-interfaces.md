@@ -74,6 +74,18 @@ The SPARK MAX sends data periodically back to the roboRIO. Frequently accessed d
 | Alternate Encoder Velocity | 32-bit IEEE floating-point representation of the velocity in RPM of the alternate encoder.       |
 | Alternate Encoder Position | 32-bit IEEE floating-point representation of the position in rotations of the alternate encoder. |
 
+#### Periodic Status 5 - Default Rate: 200ms
+| **Available Data**                            | **Description**                                                                               |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------|
+| Duty Cycle Absolute Encoder Position          | 32-bit IEEE floating-point representation of the position of the duty cycle absolute encoder. |
+| Duty Cycle Absolute Encoder Absolute Angle    | 16-bit integer representation of the absolute angle of the duty cycle absolute encoder.       |
+
+#### Periodic Status 6 - Default Rate: 200ms
+| **Available Data**                    | **Description**                                                                                       |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Duty Cycle Absolute Encoder Velocity  | 32-bit IEEE floating-point representation of the velocity in RPM of the duty cycle absolute encoder.  |
+| Duty Cycle Absolute Encoder Frequency | 16-bit unsigned integer representation of the frequency at which the duty cycle signal is being sent. |
+
 ### **Use-case Examples**
 
 #### **Position Control on the roboRIO**

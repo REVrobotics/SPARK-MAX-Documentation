@@ -4,9 +4,9 @@ Below you will find information on how to download and install REVLib for LabVIE
 
 | **Language**            | Current REVLib Version |              Documentation             |
 | ----------------------- | :--------------------: | :------------------------------------: |
-| [LabVIEW](./#labview)   |        2022.1.2        |         Embedded (Press Ctrl-H)        |
-| [Java](./#c++-and-java) |        2022.1.1        | [Java Docs](./#java-api-documentation) |
-| [C++](./#c++-and-java)  |        2022.1.1        |  [C++ Docs](./#c++-api-documentation)  |
+| [LabVIEW](./#labview)   |        2023.1.1        |         Embedded (Press Ctrl-H)        |
+| [Java](./#c++-and-java) |        2023.1.1        | [Java Docs](./#java-api-documentation) |
+| [C++](./#c++-and-java)  |        2023.1.1        |  [C++ Docs](./#c++-api-documentation)  |
 
 ### Migrating from the SPARK MAX API and/or Color Sensor V3 API
 
@@ -32,12 +32,12 @@ Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been mer
 
 ### LabVIEW
 
-|                                                                                   REVLib LabVIEW - Version 2022.1.2                                                                                  |
+|                                                                                   REVLib LabVIEW - Version 2023.1.1                                                                                  |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.1.2/REVLib-labVIEW-2022.1.2-0\_windows\_all.nipkg) |
+| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2023.1.1/REVLib-labVIEW-2023.1.1-0\_windows\_all.nipkg) |
 
 1. Download the latest REVLib LabVIEW package from the download link above.
-2. Make sure LabVIEW for FRC 2022 is installed and updated.
+2. Make sure LabVIEW for FRC 2023 is installed and updated.
 3. Open the REVLib LabVIEW Package. The NI Package Manager should automatically open.
 4.  Click **Next**:
 
@@ -52,9 +52,9 @@ Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been mer
 
 ### C++ and Java
 
-|                                                                        REVLib C++/Java - Version 2022.1.1                                                                        |
+|                                                                        REVLib C++/Java - Version 2023.1.1                                                                        |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![](<../../.gitbook/assets/Download Latest JAVA API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2022.1.1/REVLib-offline-v2022.1.1.zip) |
+| [![](<../../.gitbook/assets/Download Latest JAVA API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2023.1.1/REVLib-offline-v2023.1.1.zip) |
 
 #### Online Installation
 
@@ -66,11 +66,11 @@ You can use the online method to install REVLib C++/Java if your development mac
 4. Select **Install new library (online)**.
 5.  Enter the following installation URL and press ENTER:
 
-    [`https://software-metadata.revrobotics.com/REVLib.json`](https://software-metadata.revrobotics.com/REVLib.json)
+    [`https://software-metadata.revrobotics.com/REVLib-2023.json`](https://software-metadata.revrobotics.com/REVLib-2023.json)
 
 #### Offline Installation
 
-1. Download and unzip the latest REVLib into the _C:\Users\Public\wpilib\2022_ directory on Windows and _\~/wpilib/2022_ directory on Unix-like systems.
+1. Download and unzip the latest REVLib into the _C:\Users\Public\wpilib\2023_ directory on Windows and _\~/wpilib/2023_ directory on Unix-like systems.
 2. Follow the WPILib instructions for [Adding Offline Libraries](https://docs.wpilib.org/en/latest/docs/software/vscode-overview/3rd-party-libraries.html#adding-offline-libraries).
 
 ## Java API Documentation
@@ -86,6 +86,16 @@ For a list and description of all classes:
 * [Online REVLib C++ Documentation](https://codedocs.revrobotics.com/cpp/namespacerev.html)
 
 ## Changelog
+
+### Version 2023.1.1
+* Adds support for WPILib 2023
+* Adds support for using a duty cycle absolute encoder as a feedback device for the SPARK MAX
+  * C++/Java: Adds SparkMaxAbsoluteEncoder class
+  * LabVIEW: Adds VIs for configuring and getting the values from a duty cycle absolute encoder
+* Adds Position PID Wrapping to allow continuous input for the SPARK MAX PID controller
+  * C++/Java: Adds PositionPIDWrapping methods to the SparkMaxPIDController class
+  * LabVIEW: Adds VIs for setting and getting the Position PID Wrapping configuration
+* Allows configuring the periodic frame rates for status frames 4-6
 
 ### Version 2022.1.2
 
