@@ -4,9 +4,9 @@ The REV Hardware Client is software designed to make managing REV devices easier
 
 For more information on the REV Hardware Client, including a full list of supported devices, [see the User's Manual](https://docs.revrobotics.com/rev-hardware-client/).
 
-|                                                                                           Latest REV Hardware Client - Version 1.4.3                                                                                           |
+|                                                                                           Latest REV Hardware Client - Version 1.5.0                                                                                           |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [<img src="../../.gitbook/assets/Download Latest SPARK MAX Client (1).svg" alt="" data-size="original">](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-1.4.3/REV-Hardware-Client-Setup-1.4.3.exe) |
+| [<img src="../../.gitbook/assets/Download Latest SPARK MAX Client (1).svg" alt="" data-size="original">](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-1.5.0/REV-Hardware-Client-Setup-1.5.0.exe) |
 
 {% hint style="warning" %}
 The REV Hardware Client **will not work with SPARK MAX beta units** distributed by REV to the SPARK MAX beta testers. It is only compatible with units received after 12/21/2018.
