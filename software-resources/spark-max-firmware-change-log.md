@@ -1,21 +1,28 @@
 # SPARK MAX Firmware Changelog
 
-It is recommended to keep your SPARK MAX up-to-date with the latest firmware. The REV Hardware Client application will automatically download the latest firmware, but you can also download the firmware manually below:&#x20;
+It is recommended to keep your SPARK MAX up-to-date with the latest firmware. The REV Hardware Client application will automatically download the latest firmware, but you can also download the firmware manually below:
 
-|                                                    Latest Firmware - Version 1.6.1                                                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------: |
-| [![](<../.gitbook/assets/Download Latest Firmware.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/sparkmax-1.6.1/SPARK-MAX-FW-v1.6.1.dfu) |
+|                                                       Latest Firmware - Version 1.6.2                                                      |
+| :----------------------------------------------------------------------------------------------------------------------------------------: |
+| [![](<../.gitbook/assets/Download Latest Firmware.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/tag/sparkmax-1.6.2) |
 
 {% hint style="warning" %}
 This firmware **will not work with SPARK MAX beta hardware units** distributed by REV to the SPARK MAX Beta testers. It is only compatible with units received after 12/20/2018.
 {% endhint %}
 
+#### Version 1.6.2
+
+* Fixes critical issue where new parameters introduced in 1.6.0 were not being burned to flash correctly
+* Fixes issue where new parameters were not being read back correctly despite being set correctly
+
 #### Version 1.6.1
+
 * Fixes duty cycle offset to match the inverted setting
 * Fixes parameters being NaN after updating to 1.6.0
 * Fixes burn flash command response
 
 #### Version 1.6.0
+
 * Adds new parameters for configuring hall sensor velocity measurement
 * Adds support for duty cycle absolute encoders
 * Adds new parameters to enable and configure position PID rollover
@@ -63,15 +70,15 @@ This firmware **will not work with SPARK MAX beta hardware units** distributed b
 
 #### Version 1.3.0
 
-  * Ability to configure the feedback device for the PIDController.
-  * Addition of CANAnalog which will function as a possible feedback device.
-  * Added API for using encoders with brushed DC motors.
-  * Adds API to enable and set soft limits.
-  * All control modes now reset integrator on limit switch activation for long as the limit switch is held.
-  * Smart Motion now honors acceleration rate after limit switch changes from triggered to not triggered.
-  * Fixes issue where sticky faults can be cleared incorrectly when a new fault is set and the old fault is no longer present.
-  * Adds status 3 periodic frame for analog sensor.
-  * Other minor improvements and bug fixes.
+* Ability to configure the feedback device for the PIDController.
+* Addition of CANAnalog which will function as a possible feedback device.
+* Added API for using encoders with brushed DC motors.
+* Adds API to enable and set soft limits.
+* All control modes now reset integrator on limit switch activation for long as the limit switch is held.
+* Smart Motion now honors acceleration rate after limit switch changes from triggered to not triggered.
+* Fixes issue where sticky faults can be cleared incorrectly when a new fault is set and the old fault is no longer present.
+* Adds status 3 periodic frame for analog sensor.
+* Other minor improvements and bug fixes.
 
 #### Version 1.2.1
 
