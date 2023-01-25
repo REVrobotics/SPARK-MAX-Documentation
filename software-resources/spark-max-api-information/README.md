@@ -4,9 +4,9 @@ Below you will find information on how to download and install REVLib for LabVIE
 
 | **Language**            | Current REVLib Version |              Documentation             |
 | ----------------------- | :--------------------: | :------------------------------------: |
-| [LabVIEW](./#labview)   |        2023.1.1        |         Embedded (Press Ctrl-H)        |
-| [Java](./#c++-and-java) |        2023.1.1        | [Java Docs](./#java-api-documentation) |
-| [C++](./#c++-and-java)  |        2023.1.1        |  [C++ Docs](./#c++-api-documentation)  |
+| [LabVIEW](./#labview)   |        2023.1.2        |         Embedded (Press Ctrl-H)        |
+| [Java](./#c++-and-java) |        2023.1.2        | [Java Docs](./#java-api-documentation) |
+| [C++](./#c++-and-java)  |        2023.1.2        |  [C++ Docs](./#c++-api-documentation)  |
 
 ### Migrating from the SPARK MAX API and/or Color Sensor V3 API
 
@@ -32,9 +32,9 @@ Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been mer
 
 ### LabVIEW
 
-|                                                                                   REVLib LabVIEW - Version 2023.1.1                                                                                  |
+|                                                                                   REVLib LabVIEW - Version 2023.1.2                                                                                  |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2023.1.1/REVLib-labVIEW-2023.1.1-0\_windows\_all.nipkg) |
+| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2023.1.2/REVLib-labVIEW-2023.1.2-0\_windows\_all.nipkg) |
 
 1. Download the latest REVLib LabVIEW package from the download link above.
 2. Make sure LabVIEW for FRC 2023 is installed and updated.
@@ -52,9 +52,9 @@ Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been mer
 
 ### C++ and Java
 
-|                                                                        REVLib C++/Java - Version 2023.1.1                                                                        |
+|                                                                        REVLib C++/Java - Version 2023.1.2                                                                        |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![](<../../.gitbook/assets/Download Latest JAVA API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2023.1.1/REVLib-offline-v2023.1.1.zip) |
+| [![](<../../.gitbook/assets/Download Latest JAVA API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2023.1.2/REVLib-offline-v2023.1.2.zip) |
 
 #### Online Installation
 
@@ -86,6 +86,13 @@ For a list and description of all classes:
 * [Online REVLib C++ Documentation](https://codedocs.revrobotics.com/cpp/namespacerev.html)
 
 ## Changelog
+
+### Version 2023.1.2
+**This version of REVLib requires SPARK MAX Firmware v1.6.2. Please update your SPARK MAX through the REV Hardware Client.**
+
+* Adds support to configure the hall sensor's velocity measurement
+  * C++/Java: Updates `SetMeasurementPeriod()` and `SetAverageDepth()` in the `SparkMaxRelativeEncoder` class to be used when the relative encoder is configured to be of type `kHallSensor`.
+  * LabVIEW: Adds `SPARK MAX Configure Hall Sensor.vi` and `SPARK MAX Get Hall Sensor Config.vi` to set and get the hall sensor's measurement period and average depth.
 
 ### Version 2023.1.1
 * Adds support for WPILib 2023
