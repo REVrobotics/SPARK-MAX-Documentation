@@ -87,6 +87,8 @@ For a list and description of all classes:
 
 ## Changelog
 ### Version 2023.1.3
+**This version of REVLib requires SPARK MAX Firmware v1.6.3. Please update your SPARK MAX through the REV Hardware Client.**
+
 * Improves documentation for the setZeroOffset() and getZeroOffset() methods on Absolute Encoder objects
 * Fixes issue where reading an absolute encoder’s zero offset could return an incorrect value in certain conditions
 
