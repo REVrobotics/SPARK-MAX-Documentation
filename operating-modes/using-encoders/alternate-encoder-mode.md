@@ -3,20 +3,19 @@
 The SPARK MAX can be configured to run in Alternate Encoder Mode, which reconfigures the Data Port on the top of the controller to accept an alternative quadrature encoder, separate from the default encoder inputs shared between the front Encoder Port and the default quadrature encoder Data Port pins. Analog input is not affected by Alternate Encoder Mode. &#x20;
 
 {% hint style="info" %}
-**This feature is designed for use in low-RPM mechanisms such as drivetrains, arms, and other manipulators.** For high RPM applications it is recommended to use the built-in motor sensor for brushless motors or the default encoder inputs for brushed motors.&#x20;
+**This feature is designed for use in low-RPM mechanisms such as drivetrains, arms, and other manipulators.** For high RPM applications, it is recommended to use the built-in motor sensor for brushless motors or the default encoder inputs for brushed motors.&#x20;
 {% endhint %}
 
 #### Alternate Encoder Specifications
 
-| **Parameter**                | **Specification** |
-| ---------------------------- | ----------------- |
-| Encoder Output Voltage Level | 3.3V or 5.0V      |
-| Encoder Type Supported       | Quadrature†       |
-| Maximum Counts per Second    | 165000            |
+| Parameter                    | Specification |
+| ---------------------------- | ------------- |
+| Encoder Output Voltage Level | 3.3V or 5.0V  |
+| Encoder Type Supported       | Quadrature†   |
+| Maximum Counts per Second    | 165000        |
 
-|    |                                          |
-| -- | ---------------------------------------- |
 | †  | Index pulses are not currently supported |
+| -- | ---------------------------------------- |
 
 {% hint style="danger" %}
 &#x20;**Before connecting a sensor with 5V output**, the SPARK MAX **must first be configured** into Alternate Encoder Mode and its configuration **must be saved** on the SPARK MAX or **damage will occur**. This can be done through the REV Hardware Client or the software APIs.
@@ -84,7 +83,7 @@ Below you will find the steps required to set up and use the Alternate Encoder M
 
 Using the REV Hardware Client, select your SPARK MAX, then navigate to the Advanced Tab and scroll to the Alternate Encoder parameter section. Enable the alternate encoder by setting the _kDataPortConfig_ parameter to 'Alternate Encoder' via the drop down menu. You can also set the other Alternate Encoder parameters at this time.
 
-![](<../.gitbook/assets/alt encoder mode.png>)
+![](<../../.gitbook/assets/alt encoder mode.png>)
 
 ### **Configuring Using the SPARK MAX APIs**
 

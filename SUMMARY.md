@@ -23,7 +23,10 @@
 * [Control Interfaces](operating-modes/control-interfaces.md)
 * [Closed Loop Control](operating-modes/closed-loop-control.md)
 * [Recovery Mode](operating-modes/recovery-mode.md)
-* [Alternate Encoder Mode](operating-modes/alternate-encoder-mode.md)
+* [Using Encoders](operating-modes/using-encoders/README.md)
+  * [Absolute Encoders](operating-modes/using-encoders/absolute-encoders.md)
+  * [Alternate Encoder Mode](operating-modes/using-encoders/alternate-encoder-mode.md)
+  * [Securing the Encoder Adapters](operating-modes/using-encoders/securing-the-encoder-adapters.md)
 
 ## REV Hardware Client
 
