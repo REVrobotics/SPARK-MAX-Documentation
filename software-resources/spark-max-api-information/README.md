@@ -34,7 +34,7 @@ Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been mer
 
 |                                                                                  REVLib LabVIEW - Version 2023.1.3                                                                                   |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2023.1.3/REVLib-labVIEW-2023.1.3-1\_windows\_all.nipkg) |
+| [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2023.1.3/REVLib-labVIEW-2023.1.3-2\_windows\_all.nipkg) |
 
 1. Download the latest REVLib LabVIEW package from the download link above.
 2. Make sure LabVIEW for FRC 2023 is installed and updated.
