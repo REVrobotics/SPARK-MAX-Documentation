@@ -45,4 +45,4 @@ Even though some examples may only exist in a particular language, they can be a
 
 |                                                                                                                                             |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
-| [<img src="../.gitbook/assets/Code Examples Image v2.svg" alt="" data-size="original"> ](https://github.com/REVrobotics/SPARK-MAX-Examples) |
+| [<img src="../.gitbook/assets/code-examples-image-v2.svg" alt="" data-size="original"> ](https://github.com/REVrobotics/SPARK-MAX-Examples) |

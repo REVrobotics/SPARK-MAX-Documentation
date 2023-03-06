@@ -8,7 +8,7 @@ Individual devices, like the SPARK MAX, have additional tabs available when the 
 
 The Hardware Tab is used to select devices connected via USB or the USB to CAN bridge for configuration, updates, and more.
 
-![](<../../.gitbook/assets/Hardware Tab - With CAN Bridge.svg>)
+![](../../.gitbook/assets/hardware-tab-with-can-bridge.svg)
 
 Once a SPARK MAX is selected from the Hardware tab a number of device specific tabs will show.
 
@@ -16,7 +16,7 @@ Once a SPARK MAX is selected from the Hardware tab a number of device specific t
 
 The Basic Tab is used to set the most common parameters for the SPARK MAX.
 
-![](<../../.gitbook/assets/SPARK MAX - Basic (modified) (1).svg>)
+![](<../../.gitbook/assets/spark-max-basic-modified- (1).svg>)
 
 1. **Device Identify:** Blink the selected SPARK MAX's LED for identification.
 2. **CAN ID:** This assigns a SPARK MAX a CAN ID for identification over the CAN BUS. Any configured SPARK MAX **must have** a CAN ID.
@@ -27,7 +27,7 @@ The Basic Tab is used to set the most common parameters for the SPARK MAX.
 
 The Advanced Tab allows for changing all configurable parameters of the SPARK MAX without needing to set them in code.
 
-![](<../../.gitbook/assets/SPARK MAX - Advanced (modified) (1).svg>)
+![](../../.gitbook/assets/spark-max-advanced-modified-.svg)
 
 1. **Search Parameters:** Allows for easy look up of a specific parameter for editing.
 2. **Parameter Table:** Select the arrow to show all configurable parameters within a specific group. For more information on each parameter type see [Configuration Parameters](../../software-resources/configuration-parameters.md).
@@ -40,7 +40,7 @@ Remember to burn the parameters to flash memory before disconnecting the SPARK M
 
 The Run Tab allows for the SPARK MAX to operate over USB or a USB to CAN Bridge without the need for a full control system. This is helpful for testing mechanisms and tuning their control loops.
 
-![](<../../.gitbook/assets/SPARK MAX - Run (modified).svg>)
+![](../../.gitbook/assets/spark-max-run-modified-.svg)
 
 1. **Run:** Choose setpoints to run a motor connected to a SPARK MAX using various modes, including position, velocity, and duty cycle.
 2. **PIDF:** Update PIDF parameters on the fly to tune control loops on the SPARK MAX.
@@ -50,7 +50,7 @@ The Run Tab allows for the SPARK MAX to operate over USB or a USB to CAN Bridge 
 
 The API tab shows what the current version and latest version of the SPARK MAX APIs are. There are links to installing the current version of WPILib and for installing the SPARK MAX APIs properly.
 
-![](<../../.gitbook/assets/SPARK MAX - API (modified).svg>)
+![](../../.gitbook/assets/spark-max-api-modified-.svg)
 
 1. **Select Year:** Selects the WPILib release year that is installed for API compatibility.
 2. **API Selection:** Ability to choose which language API to download.
@@ -59,7 +59,7 @@ The API tab shows what the current version and latest version of the SPARK MAX A
 
 The Update tab shows what version of firmware is on the selected device, if that device is up to date, and update the firmware of the selected device.
 
-![](<../../.gitbook/assets/SPARK MAX - Update CAN ID 1 (modified).svg>)
+![](../../.gitbook/assets/spark-max-update-can-id-1-modified-.svg)
 
 1. **Download Latest Firmware:** Downloads latest firmware onto the local machine running the Client.
 2. **Update Firmware:** Updates the selected device with the latest firmware.

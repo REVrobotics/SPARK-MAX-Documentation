@@ -35,11 +35,11 @@ The first step is determining the type of motor you wish to connect. The SPARK M
 
 Connect the three motor wires; red, black, and white, to the matching SPARK MAX output wires labeled A (red), B (black), and C (white).
 
-![](<../.gitbook/assets/NEO motor connectors.png>)
+![](<../.gitbook/assets/neo-motor-connectors (1).png>)
 
 Next connect the NEO or NEO 550's encoder cable to the port labeled ENCODER just above the output wires.
 
-![](<../.gitbook/assets/NEO Encoder Connector.png>)
+![](<../.gitbook/assets/neo-encoder-connector (1).png>)
 
 {% hint style="warning" %}
 The encoder sensor cable is _**required**_** ** for the operation of brushless motors with SPARK MAX. The motor will not spin without it.
@@ -51,7 +51,7 @@ Connect the two motor wires, M+ (red) and M- (black), to the SPARK MAX output wi
 
 The third output wire, labeled C (white), is not used when driving a brushed motor and should be secured and insulated. We recommend tying it back with a zip-tie and covering the end with a piece of electrical tape. Do not cut this wire in case you wish to use a brushless motor in the future. In the example below the extra unused motor wire is insulated by the white connector and secured in the block.
 
-![](<../.gitbook/assets/CIM motor Connectors.png>)
+![](<../.gitbook/assets/cim-motor-connectors (1).png>)
 
 ## Verify Connection
 

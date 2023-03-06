@@ -8,7 +8,7 @@ Update, configure, and test your SPARK MAX Motor Controller with the SPARK MAX C
 
 |                                                                          Latest SPARK MAX Client - Version 2.1.1                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [<img src="../../.gitbook/assets/Download Latest SPARK MAX Client.svg" alt="" data-size="original"> ](https://www.revrobotics.com/content/sw/max/client/spark-max-client-setup-2.1.1.exe) |
+| [<img src="../../.gitbook/assets/download-latest-spark-max-client.svg" alt="" data-size="original"> ](https://www.revrobotics.com/content/sw/max/client/spark-max-client-setup-2.1.1.exe) |
 
 The SPARK MAX Client **will not work with SPARK MAX beta units** distributed by REV to the SPARK MAX beta testers. It is only compatible with units received after 12/21/2018.
 

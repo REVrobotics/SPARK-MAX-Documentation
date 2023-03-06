@@ -8,19 +8,19 @@ When updating the firmware on the SPARK MAX, it is possible for the process to b
 * Open the REV Hardware Client. The SPARK MAX will remain dark and it **will not** connect to the Client, this is expected.
 * Select the SPARK MAX in Recovery Mode from the REV Hardware Client
 
-![](<../.gitbook/assets/Recovery Mode Dectected.svg>)
+![](../.gitbook/assets/recovery-mode-dectected.svg)
 
 * Press the Update Button
 
-![](<../.gitbook/assets/Recovery Mode - Update Firmware.svg>)
+![](../.gitbook/assets/recovery-mode-update-firmware.svg)
 
 * Wait for the Firmware Update to complete
 
-![](<../.gitbook/assets/Recovery Mode - Updating.svg>)
+![](../.gitbook/assets/recovery-mode-updating.svg)
 
 * Once completed the SPARK MAX will disconnect then reconnect to the REV Hardware Client. Select the SPARK MAX to start the configuration process
 
-![](<../.gitbook/assets/Recovery Mode - Completed.svg>)
+![](../.gitbook/assets/recovery-mode-completed.svg)
 
 {% hint style="info" %}
 The Recovery Mode is also available with the [Legacy SPARK MAX Client](../spark-max-client/getting-started-with-the-spark-max-client/recovery-mode-with-the-spark-max-client.md)

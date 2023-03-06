@@ -8,7 +8,7 @@ This is **legacy documentation** for our discontinued SPARK MAX Client Software.
 
 The Navigation bar is visible on all tabs of the SPARK MAX Client and allows you to select with SPARK MAX the Client is connected to.&#x20;
 
-![](../../.gitbook/assets/Navigation.svg)
+![](../../.gitbook/assets/navigation.svg)
 
 1. **Identify Device:** The status LED of a selected device will blink. This is helpful when troubleshooting or configuring multiple devices.
 2. **Device Selection:** See each SPARK MAX connected to the SPARK MAX Client. This includes other devices connected via CAN if running firmware 1.4.0 or later.
@@ -20,7 +20,7 @@ The Navigation bar is visible on all tabs of the SPARK MAX Client and allows you
 
 The Basic Tab is used to set the most common parameters for the SPARK MAX
 
-![](<../../.gitbook/assets/Basic Tab.svg>)
+![](../../.gitbook/assets/basic-tab.svg)
 
 1. **Configurations:** This drop down allows you to select pre-existing configurations store on the Windows machine running the SPARK MAX Client or to pull the existing parameters stored on in RAM on the SPARK MAX. This is helpful when configuring multiple motor controllers to the same settings.
 2. **CAN ID:** This assigns a SPARK MAX a CAN ID for identification over the CAN BUS. Any configured SPARK MAX **must have** a CAN ID.
@@ -30,7 +30,7 @@ The Basic Tab is used to set the most common parameters for the SPARK MAX
 
 The Advanced Tab allows for changing all configurable parameters of the SPARK MAX without needing to set them in code.
 
-![](<../../.gitbook/assets/Advanced Tab.svg>)
+![](../../.gitbook/assets/advanced-tab.svg)
 
 1. **Search Parameters:** Allows for easy look up of a specific parameter for editing.
 2. **Parameter Table:** Select the arrow to show all configurable parameters within a specific group. For more information on each parameter type see [Configuration Parameters](../../software-resources/configuration-parameters.md).
@@ -39,14 +39,14 @@ The Advanced Tab allows for changing all configurable parameters of the SPARK MA
 
 The Run Tab allows for the SPARK MAX to operate over USB or a USB to CAN Bridge without the need for a full control system. This is helpful for testing mechanisms and tuning their control loops.
 
-![](../../.gitbook/assets/Run.svg)
+![](../../.gitbook/assets/run.svg)
 
 1. **Bar Select:** Select from either run, parameters, or signals to provide information and feedback when operating SPARK MAX.
 2. **Signal Chart:** Shows any added signals in graph form when running a SPARK MAX. This is helpful when tuning control loops.
 3. **PIDF:** Update PIDF parameters on the fly to tune control loops on the SPARK MAX.
 4. **Run:** Choose setpoints to run a motor connected to a SPARK MAX using various modes, including position, velocity, and duty cycle.
 
-![](../../.gitbook/assets/Run2.svg)
+![](../../.gitbook/assets/run2.svg)
 
 {% hint style="info" %}
 The three icons for bar select change the bottom third of the Run Tab for configuration. Once signals and other parameters are configured selecting the run bar icon will allow for running of a motor with the SPARK MAX Client.
@@ -56,7 +56,7 @@ The three icons for bar select change the bottom third of the Run Tab for config
 
 The Network Tab shows all connected devices via USB and the USB to CAN interface. From the Network Tab each device can be identified and firmware updated.
 
-![](../../.gitbook/assets/Network.svg)
+![](../../.gitbook/assets/network.svg)
 
 1. **Device Select:** Select a device to update firmware.
 2. **Load Firmware:** Select what firmware to update onto selected devices.

@@ -29,7 +29,7 @@ The default polarity is compatible with Normally Open (NO) style limit switches,
 
 #### Limit Switch Operation
 
-![](<../.gitbook/assets/SPARK MAX Limit Switch - Export.svg>)
+![](../.gitbook/assets/spark-max-limit-switch-export.svg)
 
 ## Quadrature Encoder Input
 

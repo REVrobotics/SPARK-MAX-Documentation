@@ -6,7 +6,7 @@ For more information on the REV Hardware Client, including a full list of suppor
 
 |                                                                                           Latest REV Hardware Client - Version 1.5.2                                                                                           |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [<img src="../../.gitbook/assets/download-latest-spark-max-client (1).svg" alt="" data-size="original">](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-1.5.2/REV-Hardware-Client-Setup-1.5.2.exe) |
+| [<img src="../../.gitbook/assets/Download Latest SPARK MAX Client (1).svg" alt="" data-size="original">](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/rhc-1.5.2/REV-Hardware-Client-Setup-1.5.2.exe) |
 
 {% hint style="warning" %}
 The REV Hardware Client **will not work with SPARK MAX beta units** distributed by REV to the SPARK MAX beta testers. It is only compatible with units received after 12/21/2018.

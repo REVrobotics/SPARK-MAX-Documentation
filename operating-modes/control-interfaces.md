@@ -10,7 +10,7 @@ The SPARK MAX responds to a factory default pulse range of 1000µs to 2000µs. T
 
 #### PWM Pulse Mapping
 
-![](<../.gitbook/assets/pwm-pulse-mapping (1).svg>)
+![](<../.gitbook/assets/PWM Pulse Mapping (1).svg>)
 
 {% hint style="warning" %}
 If a valid signal isn't received within a 60ms window, the SPARK MAX will disable the motor output and either brake or coast the motor depending on the configured Idle Mode. For details on the Idle Mode, see [Idle Mode - Brake/Coast Mode](idle-mode-brake-coast-mode.md).
@@ -75,12 +75,14 @@ The SPARK MAX sends data periodically back to the roboRIO. Frequently accessed d
 | Alternate Encoder Position | 32-bit IEEE floating-point representation of the position in rotations of the alternate encoder. |
 
 #### Periodic Status 5 - Default Rate: 200ms
-| **Available Data**                            | **Description**                                                                               |
-| --------------------------------------------- | ----------------------------------------------------------------------------------------------|
-| Duty Cycle Absolute Encoder Position          | 32-bit IEEE floating-point representation of the position of the duty cycle absolute encoder. |
-| Duty Cycle Absolute Encoder Absolute Angle    | 16-bit integer representation of the absolute angle of the duty cycle absolute encoder.       |
+
+| **Available Data**                         | **Description**                                                                               |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| Duty Cycle Absolute Encoder Position       | 32-bit IEEE floating-point representation of the position of the duty cycle absolute encoder. |
+| Duty Cycle Absolute Encoder Absolute Angle | 16-bit integer representation of the absolute angle of the duty cycle absolute encoder.       |
 
 #### Periodic Status 6 - Default Rate: 200ms
+
 | **Available Data**                    | **Description**                                                                                       |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | Duty Cycle Absolute Encoder Velocity  | 32-bit IEEE floating-point representation of the velocity in RPM of the duty cycle absolute encoder.  |

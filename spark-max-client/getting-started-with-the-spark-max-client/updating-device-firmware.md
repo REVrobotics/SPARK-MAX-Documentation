@@ -21,7 +21,7 @@ If your SPARK MAX is running firmware older than 1.4.0, you may not see a pop-up
 * Click **Open Network Tab & Scan Bus** and proceed to the next step.
 * Your SPARK MAX should now be listed in the device list. Click the checkbox next to the SPARK MAX you wish to update, and click **Load Firmware**.
 
-![](../../.gitbook/assets/serial\_bridge.PNG)
+![](../../.gitbook/assets/serial\_bridge.png)
 
 {% hint style="info" %}
 If your SPARK MAX is listed and you are unable to click the checkbox next to it, you must put your SPARK MAX into [Recovery Mode](../../operating-modes/recovery-mode.md).&#x20;

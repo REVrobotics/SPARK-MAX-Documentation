@@ -44,6 +44,7 @@
   * [C++ API Documentation](https://codedocs.revrobotics.com/cpp/namespacerev.html)
 * [SPARK MAX Code Examples](software-resources/spark-max-code-examples.md)
 * [Configuration Parameters](software-resources/configuration-parameters.md)
+* [Calibration for MAXSwerve](software-resources/calibration-for-maxswerve.md)
 * [Migrating from CTRE Phoenix to SPARK MAX](software-resources/migrating-ctre-to-rev.md)
 
 ## Tips and Tricks
