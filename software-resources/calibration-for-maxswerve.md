@@ -2,6 +2,8 @@
 
 Before using the MAXSwerve Java or C++ Templates, be sure to calibrate your swerve modules using the [REV Hardware Client](../rev-hardware-client/getting-started-with-the-rev-hardware-client/).
 
+{% embed url="https://www.youtube.com/watch?v=4-uZfALV470" %}
+
 ## Calibration Steps
 
 1. Verify you have completely assembled your [MAXSwerve Module](https://docs.revrobotics.com/ion-build-system/build-guides/3in-maxswerve-module) and have the Steering Motor’s (NEO 550) SPARK MAX connected to the MAXSwerve’s Through Bore Encoder with an Absolute Encoder Adapter.
