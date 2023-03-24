@@ -63,3 +63,12 @@ Below you will find some troubleshooting steps for some common faults and issues
 ### Sensor Fault
 
 ![](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M7iEUG41QXEdyOMqbkc%2Fuploads%2FBv1aUnBoUaBZZIDmuuHE%2Ffile.png?alt=media)
+
+### Powers via USB but not 12V
+
+<figure><img src=".gitbook/assets/Copy of SPARK-MAX-Reference.drawio.png" alt=""><figcaption></figcaption></figure>
+
+#### Continuity Check Instructions
+
+| <p>Measure the continuity between each of the motor phase wires and the sensor wire, as pictured here.<br><br>Also, check the resistance between wires of the sensor cable and motor wires. Reach out to support@revrobotics.com with results for each phase wire.</p> | ![](.gitbook/assets/image.png) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
