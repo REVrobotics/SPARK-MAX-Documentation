@@ -8,4 +8,4 @@ We recommend following this guide in its entirety at least once to understand th
 
 ## Before You Start
 
-Before following this guide, the REV Hardware Client should be [Installed](../rev-hardware-client/getting-started-with-the-rev-hardware-client/#installation-instructions) before continuing. The client is the best way to verify that the device is configured correctly, and is _**required**_** ** before using the CAN interface.
+Before following this guide, the REV Hardware Client should be [Installed](../rev-hardware-client/getting-started-with-the-rev-hardware-client/#installation-instructions) before continuing. The client is the best way to verify that the device is configured correctly, and is _**required**_ before using the CAN interface.

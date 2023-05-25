@@ -19,6 +19,8 @@ The SPARK MAX can be configured to run in [Alternate Encoder Mode](../operating-
 |         5         |    Analog    | Motor Temperature |
 |         6         |     Power    |        +5V        |
 
+<figure><img src="../.gitbook/assets/SPARK-MAX-Encoder-Port-Pinout.png" alt="Encoder Port Pinout shown with color coding for JST PH 6-Pin Cables (REV-11-1275). Pin 1 is Black and for Ground. Pin 2 is Green and for Encoder C or Index. Pin 3 is Yellow and for Encoder B. Pin 4 is Blue and for Encoder A. Pin 5 is White and for Motor Temperature. Pin 6 is Red and for 5 Volt Power. "><figcaption></figcaption></figure>
+
 #### Mating Connector Information
 
 | **Description**           | **Manufacturer** | **Part Number** | **Vendor** | **Vendor P/N**                                                                                                                                              |

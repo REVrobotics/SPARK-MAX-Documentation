@@ -8,13 +8,7 @@ DO NOT exceed the maximum electrical specifications. Doing so will cause permane
 
 ### Main Electrical Specifications
 
-| Parameter                               | Min | Typ | Max  | Units |
-| --------------------------------------- | --- | --- | ---- | ----- |
-| Operating Voltage Range                 | 5.5 | 12  | 24   | V     |
-| Absolute Maximum Supply Voltage         | -   | -   | 30   | V     |
-| Continuous Output Current               | -   | -   | 60\* | A     |
-| Maximum Output Current (2 second surge) | -   | -   | 100  | A     |
-| Output Frequency                        | -   | 20  | -    | kHz   |
+<table><thead><tr><th>Parameter</th><th>Min</th><th width="230">Typ</th><th>Max</th><th>Units</th></tr></thead><tbody><tr><td>Operating Voltage Range</td><td>5.5</td><td>12</td><td>24</td><td>V</td></tr><tr><td>Absolute Maximum Supply Voltage</td><td>-</td><td>-</td><td>30</td><td>V</td></tr><tr><td>Continuous Output Current</td><td>-</td><td>-</td><td>60*</td><td>A</td></tr><tr><td>Maximum Output Current (2 second surge)</td><td>-</td><td>-</td><td>100</td><td>A</td></tr><tr><td>Output Frequency</td><td>-</td><td>20</td><td>-</td><td>kHz</td></tr></tbody></table>
 
 {% hint style="warning" %}
 \*Continuous operation at 60A may produce high temperatures on the heat sink. Caution should be taken when handling the SPARK MAX if it has been running at higher current level for an extended period of time.
@@ -48,16 +42,7 @@ If using a battery to power SPARK MAX, make sure the fully charged voltage is be
 
 ### Data Port Specifications
 
-| **Parameter**                      | **Min** | **Typ** | **Max** | **Units** |
-| ---------------------------------- | ------- | ------- | ------- | --------- |
-| Digital input voltage range †      | 0       | -       | 5       | V         |
-| Digital input-high voltage †       | 1.85    | -       | -       | V         |
-| Digital input-low voltage †        | -       | -       | 1.36    | V         |
-| Analog input voltage range ††      | 0       | -       | 3.3     | V         |
-| Analog input (12bit)               | -       | 81      | -       | μV        |
-| 5V supply current (I5V) ‡          | -       | -       | 100     | mA        |
-| 3.3V supply current (I3.3V)        | -       | -       | 30      | mA        |
-| Total supply current (I5V + I3.3V) | -       | -       | 100     | mA        |
+<table data-header-hidden><thead><tr><th width="217">Parameter</th><th width="150">Min</th><th width="200">Typ</th><th>Max</th><th>Units</th></tr></thead><tbody><tr><td><strong>Parameter</strong></td><td><strong>Min</strong></td><td><strong>Typ</strong></td><td><strong>Max</strong></td><td><strong>Units</strong></td></tr><tr><td>Digital input voltage range † </td><td>0</td><td>-</td><td>5</td><td>V</td></tr><tr><td>Digital input-high voltage †</td><td>1.85</td><td>-</td><td>-</td><td>V</td></tr><tr><td>Digital input-low voltage †</td><td>-</td><td>-</td><td>1.36</td><td>V</td></tr><tr><td>Analog input voltage range ††</td><td>0</td><td>-</td><td>3.3</td><td>V</td></tr><tr><td>Analog input (12bit)</td><td>-</td><td>81</td><td>-</td><td>μV</td></tr><tr><td>5V supply current (I5V) ‡</td><td>-</td><td>-</td><td>100 </td><td>mA </td></tr><tr><td>3.3V supply current (I3.3V)</td><td>-</td><td>-</td><td>30</td><td>mA</td></tr><tr><td>Total supply current (I5V + I3.3V)</td><td>-</td><td>-</td><td>100</td><td>mA</td></tr></tbody></table>
 
 |     |                                                                                                          |
 | --- | -------------------------------------------------------------------------------------------------------- |

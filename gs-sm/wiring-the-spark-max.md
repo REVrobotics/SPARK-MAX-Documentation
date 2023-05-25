@@ -42,7 +42,7 @@ Next connect the NEO or NEO 550's encoder cable to the port labeled ENCODER just
 ![](<../.gitbook/assets/neo-encoder-connector (1).png>)
 
 {% hint style="warning" %}
-The encoder sensor cable is _**required**_** ** for the operation of brushless motors with SPARK MAX. The motor will not spin without it.
+The encoder sensor cable is _**required**_ for the operation of brushless motors with SPARK MAX. The motor will not spin without it.
 {% endhint %}
 
 ### Brushed DC Motor Connections
