@@ -42,28 +42,38 @@ If you are running brushed motor, set the motor type to **Brushed**, sensor type
 
 ![](../.gitbook/assets/spark-max-sm-brushed-motor-no-sensor.svg)
 
-### Set the Smart Current Limit
+### Limiting Current
+
+There are two ways to protect your robot’s motors from electrical damage in high-current situations: Circuit Breakers and the SPARK MAX’s Smart Current Limit Setting. To protect your motors from currents that are too high, it is a best practice to limit your current both with the SPARK MAX’s Smart Current Limit **and** an appropriately rated circuit breaker.
+
+Circuit breakers, while an extremely important part of a robot's wiring and safety, are only designed to trip at a specific temperature, after a set amount of time, to protect the electrical system from fire or other electrical hazards. Due to this, we recommend setting a Smart Current Limit to protect your motors from damage due to high currents.
 
 The SPARK MAX Motor Controller includes a Smart Current Limit feature that can adjust the applied output to the motor to maintain a constant phase current.&#x20;
 
-{% hint style="info" %}
-To help decide what to set your Smart Current Limit to you can use data from our locked-rotor testing for the [NEO (REV-21-1650) ](https://www.revrobotics.com/neo-brushless-motor-locked-rotor-testing/)and [NEO 550 (REV-21-1651)](https://www.revrobotics.com/neo-550-brushless-motor-locked-rotor-testing/)
+Out of the box, the SPARK MAX's Smart Current Limit default setting is 80A for any motor that you use. We recommend utilizing our locked-rotor testing data or the table below to decide what to set your Smart Current Limit to for your robot: Locked-Rotor Testing for the [NEO (REV-21-1650) ](https://www.revrobotics.com/neo-brushless-motor-locked-rotor-testing/)and [NEO 550 (REV-21-1651)](https://www.revrobotics.com/neo-550-brushless-motor-locked-rotor-testing/).
+
+{% hint style="danger" %}
+Remember that some settings, like Smart Current Limit, must be burned to flash via code or the Hardware Client in order to be retained through a power cycle of the SPARK MAX.
 {% endhint %}
 
-| Motor Type                                                        | Suggested Current Limit Range |
-| ----------------------------------------------------------------- | ----------------------------- |
-| NEO ([REV-21-1650](https://www.revrobotics.com/rev-21-1650/))     | 40A - 60A                     |
-| NEO 550 ([REV-21-1651](https://www.revrobotics.com/rev-21-1651/)) | 20A - 40A                     |
+#### Suggested Current Limits
+
+Your ideal current limit may vary based on your specific application, but these values can be used as a starting point to reduce the chance of an overload on your motor as you begin tuning your specific mechanism's Smart Current Limit.
+
+| Motor Type                                                        | Current Limit Range |
+| ----------------------------------------------------------------- | ------------------- |
+| NEO ([REV-21-1650](https://www.revrobotics.com/rev-21-1650/))     | 40A - 60A           |
+| NEO 550 ([REV-21-1651](https://www.revrobotics.com/rev-21-1651/)) | 20A - 40A           |
 
 {% hint style="warning" %}
-Warning: setting current limits outside of the suggested ranges listed above may cause severe damage to components
+Warning: Setting current limits outside of the suggested ranges listed above may cause unintended overload and severe damage to components that are not covered by warranty.
 {% endhint %}
 
 ![](../.gitbook/assets/smartcurrentlimit.png)
 
 ## Save the Settings
 
-For the SPARK MAX to remember its new configuration through a power-cycle, the settings must be saved. To do this, press the _Burn Flash_ button on the bottom of the page. It will take a few seconds to save, indicated by the loading symbol on the button.
+The settings must be saved for the SPARK MAX to remember its new configuration through a power cycle. To do this, press the _Burn Flash_ button at the bottom of the page. It will take a few seconds to save, indicated by the loading symbol on the button.
 
 ![](../.gitbook/assets/spark-max-sm-burn-flash.svg)
 
@@ -72,7 +82,7 @@ Any settings saved this way will be remembered when the device is powered back o
 ## Spin the Motor
 
 {% hint style="danger" %}
-Before running any motor, make sure all components are in a safe state, that the motor is secured, and anyone nearby is aware. FRC motors are very powerful and can quickly cause damage to people and property.&#x20;
+Before running any motor, make sure all components are in a safe state, that the motor is secured, and that anyone nearby is aware. FRC motors are very powerful and can quickly cause damage to people and property.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
