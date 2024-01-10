@@ -1,5 +1,14 @@
 # SPARK MAX Overview
 
+{% hint style="info" %}
+**We're Updating our Documentation!** For the most up-to-date information about the SPARK MAX and other ION Motor Controllers please check out the following new documentation pages:&#x20;
+
+* [REV ION Brushless ](https://docs.revrobotics.com/brushless)
+  * [SPARK MAX Resources](https://docs.revrobotics.com/brushless/links#spark-max-links)
+  * [REVLib for SPARK MAX](https://docs.revrobotics.com/brushless/spark-max/revlib)
+* [REV Hardware Client Documentation](https://docs.revrobotics.com/rev-hardware-client/)
+{% endhint %}
+
 The REV Robotics SPARK MAX Motor Controller is an all-in-one USB, CAN, and PWM enabled motor controller that can drive both 12 V brushed and 12 V brushless DC motors. SPARK MAX is designed for use in the _FIRST_® Robotics Competition (FRC), incorporating advanced motor control in a small, easy-to-use, and affordable package. Configure and run the SPARK MAX through its built-in USB interface without needing a full control system.&#x20;
 
 ![](<.gitbook/assets/image (12).png>)

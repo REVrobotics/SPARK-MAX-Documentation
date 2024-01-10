@@ -1,5 +1,14 @@
 # Make it Spin!
 
+{% hint style="info" %}
+**We're Updating our Documentation!** For the most up-to-date information about the SPARK MAX and other ION Motor Controllers please check out the following new documentation pages:&#x20;
+
+* [REV ION Brushless ](https://docs.revrobotics.com/brushless)
+  * [SPARK MAX Resources](https://docs.revrobotics.com/brushless/links#spark-max-links)
+  * [REVLib for SPARK MAX](https://docs.revrobotics.com/brushless/spark-max/revlib)
+* [REV Hardware Client Documentation](https://docs.revrobotics.com/rev-hardware-client/)
+{% endhint %}
+
 ## Power On
 
 Now that the device is wired, and the connections carefully checked, power on the robot. You should see the SPARK MAX slowly blinking its for a new device the color will be Magenta. If the LED is dark, or you see a different blink pattern, refer to the [Status LED](../status-led.md) guide for troubleshooting.&#x20;

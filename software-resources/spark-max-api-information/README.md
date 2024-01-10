@@ -1,9 +1,18 @@
 # REVLib Information
 
+{% hint style="info" %}
+**We're Updating our Documentation!** For the most up-to-date information about the SPARK MAX and other ION Motor Controllers please check out the following new documentation pages:&#x20;
+
+* [REV ION Brushless ](https://docs.revrobotics.com/brushless)
+  * [SPARK MAX Resources](https://docs.revrobotics.com/brushless/links#spark-max-links)
+  * [REVLib for SPARK MAX](https://docs.revrobotics.com/brushless/spark-max/revlib)
+* [REV Hardware Client Documentation](https://docs.revrobotics.com/rev-hardware-client/)
+{% endhint %}
+
 Below you will find information on how to download and install REVLib for LabVIEW, Java, and C++.
 
 | **Language**            | Current REVLib Version |              Documentation             |
-| ----------------------- |:----------------------:| :------------------------------------: |
+| ----------------------- | :--------------------: | :------------------------------------: |
 | [LabVIEW](./#labview)   |        2023.1.3        |         Embedded (Press Ctrl-H)        |
 | [Java](./#c++-and-java) |        2023.1.3        | [Java Docs](./#java-api-documentation) |
 | [C++](./#c++-and-java)  |        2023.1.3        |  [C++ Docs](./#c++-api-documentation)  |
@@ -32,8 +41,8 @@ Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been mer
 
 ### LabVIEW
 
-|                                                                                  REVLib LabVIEW - Version 2023.1.3                                                                                   |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                   REVLib LabVIEW - Version 2023.1.3                                                                                  |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | [![](<../../.gitbook/assets/Download Latest LabView API.svg>)](https://github.com/REVrobotics/REV-Software-Binaries/releases/download/revlib-2023.1.3/REVLib-labVIEW-2023.1.3-2\_windows\_all.nipkg) |
 
 1. Download the latest REVLib LabVIEW package from the download link above.
@@ -41,12 +50,8 @@ Beginning with 2022, The SPARK MAX API and the Color Sensor V3 API have been mer
 3. Open the REVLib LabVIEW Package. The NI Package Manager should automatically open.
 4.  Click **Next**:
 
-
-
     <figure><img src="https://cdn8.bigcommerce.com/s-t3eo8vwp22/product_images/uploaded_images/nipackagemanager.png" alt=""><figcaption></figcaption></figure>
 5.  Once the installation is complete, you will be able to access the REVLib VIs at **LabVIEW Functions Pallet -> WPI Robotics Library -> Third Party -> REV Robotics**.
-
-
 
     <figure><img src="../../.gitbook/assets/labview5.png" alt=""><figcaption></figcaption></figure>
 
@@ -86,13 +91,16 @@ For a list and description of all classes:
 * [Online REVLib C++ Documentation](https://codedocs.revrobotics.com/cpp/namespacerev.html)
 
 ## Changelog
+
 ### Version 2023.1.3
+
 **This version of REVLib requires SPARK MAX Firmware v1.6.3. Please update your SPARK MAX through the REV Hardware Client.**
 
 * Improves documentation for the setZeroOffset() and getZeroOffset() methods on Absolute Encoder objects
 * Fixes issue where reading an absolute encoder’s zero offset could return an incorrect value in certain conditions
 
 ### Version 2023.1.2
+
 **This version of REVLib requires SPARK MAX Firmware v1.6.2. Please update your SPARK MAX through the REV Hardware Client.**
 
 * Adds support to configure the hall sensor's velocity measurement
@@ -100,6 +108,7 @@ For a list and description of all classes:
   * LabVIEW: Adds `SPARK MAX Configure Hall Sensor.vi` and `SPARK MAX Get Hall Sensor Config.vi` to set and get the hall sensor's measurement period and average depth.
 
 ### Version 2023.1.1
+
 * Adds support for WPILib 2023
 * Adds support for using a duty cycle absolute encoder as a feedback device for the SPARK MAX
   * C++/Java: Adds SparkMaxAbsoluteEncoder class

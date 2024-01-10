@@ -1,5 +1,14 @@
 # Recovery Mode
 
+{% hint style="info" %}
+**We're Updating our Documentation!** For the most up-to-date information about the SPARK MAX and other ION Motor Controllers please check out the following new documentation pages:&#x20;
+
+* [REV ION Brushless ](https://docs.revrobotics.com/brushless)
+  * [SPARK MAX Resources](https://docs.revrobotics.com/brushless/links#spark-max-links)
+  * [REVLib for SPARK MAX](https://docs.revrobotics.com/brushless/spark-max/revlib)
+* [REV Hardware Client Documentation](https://docs.revrobotics.com/rev-hardware-client/)
+{% endhint %}
+
 When updating the firmware on the SPARK MAX, it is possible for the process to be interrupted or for the firmware to be corrupted by a bad download. In this state, the Status LED will be dark and the SPARK MAX will fail to operate. SPARK MAX has a built-in recovery mode that can force it to accept new firmware even if the controller seems to be bricked. The following procedure requires a small tool, like a straightened paper clip, to press the Mode Button, a USB C cable, and a computer with the [REV Hardware Client](../rev-hardware-client/getting-started-with-the-rev-hardware-client/) installed:&#x20;
 
 * With the SPARK MAX powered off completely, press and hold the Mode Button.

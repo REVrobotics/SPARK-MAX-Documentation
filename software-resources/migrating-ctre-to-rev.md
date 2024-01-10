@@ -1,6 +1,15 @@
 # Migrating from CTRE Phoenix to SPARK MAX
 
-Many teams have been using various CTRE motor controllers such as the Talon SRX and Talon SPX, and have concerns about porting software between platforms. Fortunately the feature set and code required is similar between the two, and porting from one to the other is easy. Below shows the common tasks and the changes required to convert from the code for CTRE Phoenix devices to the SPARK MAX.
+{% hint style="info" %}
+**We're Updating our Documentation!** For the most up-to-date information about the SPARK MAX and other ION Motor Controllers please check out the following new documentation pages:&#x20;
+
+* [REV ION Brushless ](https://docs.revrobotics.com/brushless)
+  * [SPARK MAX Resources](https://docs.revrobotics.com/brushless/links#spark-max-links)
+  * [REVLib for SPARK MAX](https://docs.revrobotics.com/brushless/spark-max/revlib)
+* [REV Hardware Client Documentation](https://docs.revrobotics.com/rev-hardware-client/)
+{% endhint %}
+
+Many teams have been using various CTRE motor controllers such as the Talon SRX and Talon SPX, and have concerns about porting software between platforms. Fortunately the feature set and code required is similar between the two, and porting from one to the other is easy. Below shows the common tasks and the changes required to convert from the code for CTRE Phoenix devices to the SPARK MAX.&#x20;
 
 ## JAVA
 
@@ -198,7 +207,7 @@ encoder.setPositionFactor(M_PI * 4/15);
 
 ### Run Closed Loop Position Control for a set distance
 
-This example assumes a 4" wheel on a 15:1 reduction to move 2 feet \(24 inches\).
+This example assumes a 4" wheel on a 15:1 reduction to move 2 feet (24 inches).
 
 {% tabs %}
 {% tab title="REV SPARK MAX" %}
@@ -493,7 +502,7 @@ encoder.SetPositionFactor( M_PI * 4 / 15 );
 
 ### Run Closed Loop Position Control for a set distance
 
-This example assumes a 4" wheel on a 15:1 reduction to move 2 feet \(24 inches\).
+This example assumes a 4" wheel on a 15:1 reduction to move 2 feet (24 inches).
 
 {% tabs %}
 {% tab title="REV SPARK MAX" %}
@@ -593,4 +602,3 @@ talonSRX->OverrideLimitSwitchesEnable(true);
 ```
 {% endtab %}
 {% endtabs %}
-

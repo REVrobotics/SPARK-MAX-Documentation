@@ -1,5 +1,14 @@
 # Using Encoders
 
+{% hint style="info" %}
+**We're Updating our Documentation!** For the most up-to-date information about the SPARK MAX and other ION Motor Controllers please check out the following new documentation pages:&#x20;
+
+* [REV ION Brushless ](https://docs.revrobotics.com/brushless)
+  * [SPARK MAX Resources](https://docs.revrobotics.com/brushless/links#spark-max-links)
+  * [REVLib for SPARK MAX](https://docs.revrobotics.com/brushless/spark-max/revlib)
+* [REV Hardware Client Documentation](https://docs.revrobotics.com/rev-hardware-client/)
+{% endhint %}
+
 The SPARK MAX can accept data from encoders through both the Encoder Port and the Data Port on the top of the motor controller. Encoders have a different method of connecting to the SPARK MAX that depends on what motor you are using and what type of encoder it is. When preparing your encoders, be sure to set up your SPARK MAX correctly for the type of devices you are using.&#x20;
 
 ## Incremental vs Absolute Encoders

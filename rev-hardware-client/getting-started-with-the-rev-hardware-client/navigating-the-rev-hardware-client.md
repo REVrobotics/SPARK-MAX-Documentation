@@ -1,5 +1,14 @@
 # Navigating the REV Hardware Client
 
+{% hint style="info" %}
+**We're Updating our Documentation!** For the most up-to-date information about the SPARK MAX and other ION Motor Controllers please check out the following new documentation pages:&#x20;
+
+* [REV ION Brushless ](https://docs.revrobotics.com/brushless)
+  * [SPARK MAX Resources](https://docs.revrobotics.com/brushless/links#spark-max-links)
+  * [REVLib for SPARK MAX](https://docs.revrobotics.com/brushless/spark-max/revlib)
+* [REV Hardware Client Documentation](https://docs.revrobotics.com/rev-hardware-client/)
+{% endhint %}
+
 The REV Hardware Client has three tabs to manage different features of the Client. The Hardware Tab is where supported hardware devices are managed. The Downloads Tab allows for the downloading of supported device software for updating when offline. The About Tab has information on what devices are supported, updating the REV Hardware Client, and having issue reporting.&#x20;
 
 Individual devices, like the SPARK MAX, have additional tabs available when the device is selected. For a full overview of the default navigation features of the [REV Hardware Client see the User's Manual](https://docs.revrobotics.com/sparkmax/spark-max-client/getting-started-with-the-spark-max-client/navigating-the-spark-max-client). Below is more information on using the specific features for the SPARK MAX.

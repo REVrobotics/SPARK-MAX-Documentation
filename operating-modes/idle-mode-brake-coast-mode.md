@@ -1,6 +1,15 @@
 # Idle Mode - Brake/Coast Mode
 
-When the SPARK MAX is receiving a neutral command the idle behavior of the motor can be handled in two different ways: **Braking** or **Coasting**.
+{% hint style="info" %}
+**We're Updating our Documentation!** For the most up-to-date information about the SPARK MAX and other ION Motor Controllers please check out the following new documentation pages:&#x20;
+
+* [REV ION Brushless ](https://docs.revrobotics.com/brushless)
+  * [SPARK MAX Resources](https://docs.revrobotics.com/brushless/links#spark-max-links)
+  * [REVLib for SPARK MAX](https://docs.revrobotics.com/brushless/spark-max/revlib)
+* [REV Hardware Client Documentation](https://docs.revrobotics.com/rev-hardware-client/)
+{% endhint %}
+
+When the SPARK MAX is receiving a neutral command the idle behavior of the motor can be handled in two different ways: **Braking** or **Coasting**.&#x20;
 
 When in **Brake Mode**, the SPARK MAX will effectively short all motor wires together. This quickly dissipates any electrical energy within the motor and brings it to a quick stop.
 
@@ -36,5 +45,4 @@ Follow the steps below to switch the Idle Mode between Brake and Coast with the 
 
 ### Configuration with CAN
 
-Please see the [API Information](../software-resources/spark-max-api-information/) for information on how to configure the SPARK MAX using the CAN interface. 
-
+Please see the [API Information](../software-resources/spark-max-api-information/) for information on how to configure the SPARK MAX using the CAN interface.&#x20;

@@ -1,5 +1,14 @@
 # Anderson Powerpole Connectors
 
+{% hint style="info" %}
+**We're Updating our Documentation!** For the most up-to-date information about the SPARK MAX and other ION Motor Controllers please check out the following new documentation pages:&#x20;
+
+* [REV ION Brushless ](https://docs.revrobotics.com/brushless)
+  * [SPARK MAX Resources](https://docs.revrobotics.com/brushless/links#spark-max-links)
+  * [REVLib for SPARK MAX](https://docs.revrobotics.com/brushless/spark-max/revlib)
+* [REV Hardware Client Documentation](https://docs.revrobotics.com/rev-hardware-client/)
+{% endhint %}
+
 Anderson Powerpole connectors are a popular choice in the FIRST community for electrical connections. Ensuring that these connectors are crimped properly and the contact is fully inserted into the housing is key to having a good electrical connection.&#x20;
 
 Anderson Powerpole Connectors consist of two major parts: the **housing** and **contact.** There are a number of different housings and contacts depending on the power requirements of the system. The most common housing and contact used with the SPARK MAX is the 1327 series housing paired with the 45 amp contacts.
