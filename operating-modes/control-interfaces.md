@@ -42,7 +42,7 @@ Additional information about the CAN accessible features and how to access them 
 
 ### **Periodic Status Frames**
 
-The SPARK MAX sends data periodically back to the roboRIO. Frequently accessed data, like motor position and temperature, can be accessed using several APIs. Data is broken up into several CAN "frames" which are sent at a periodic rate. This rate can be changed manually in code, but unlike other parameters, this setting **does not persist** through a power cycle. The rate can be set anywhere from a minimum 1ms to a maximum 65535ms period. The table below describes each status frame and its available data.
+The SPARK MAX sends data periodically back to the roboRIO. Frequently accessed data, like motor position and temperature, can be accessed using several APIs. Data is broken up into several CAN "frames" which are sent at a periodic rate. This rate can be changed manually in code, but unlike other parameters, this setting **does not persist** through a power cycle. The rate can be set anywhere from a minimum 1ms to a maximum 32767ms period. The table below describes each status frame and its available data.
 
 #### Periodic Status 0 - Default Rate: 10ms
 
